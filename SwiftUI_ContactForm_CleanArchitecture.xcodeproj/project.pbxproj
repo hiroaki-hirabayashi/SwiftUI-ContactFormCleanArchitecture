@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		511FA07D78E6EB610D132152 /* Pods_SwiftUI_ContactForm_CleanArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5AE64AF9CB57FA052F2A5A /* Pods_SwiftUI_ContactForm_CleanArchitecture.framework */; };
+		CB6CAAB9E46714EEA95B6B0E /* Pods_SwiftUI_ContactForm_CleanArchitectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B7E6AFDB157E40C3647726 /* Pods_SwiftUI_ContactForm_CleanArchitectureTests.framework */; };
+		D679BCE7043869FE7C6DD7E1 /* Pods_SwiftUI_ContactForm_CleanArchitecture_SwiftUI_ContactForm_CleanArchitectureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B607E4EDAEE41A23FCEAEE7 /* Pods_SwiftUI_ContactForm_CleanArchitecture_SwiftUI_ContactForm_CleanArchitectureUITests.framework */; };
 		F4D79703276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79702276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitectureApp.swift */; };
 		F4D79705276CC7000034A35C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79704276CC7000034A35C /* ContentView.swift */; };
 		F4D79707276CC7020034A35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D79706276CC7020034A35C /* Assets.xcassets */; };
@@ -16,6 +19,7 @@
 		F4D79719276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79718276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests.swift */; };
 		F4D79723276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79722276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.swift */; };
 		F4D79725276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79724276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift */; };
+		F4D7975D276CD8570034A35C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4D7975F276CD8570034A35C /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		332BB45033342EE8DB278660 /* Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47C8B19EB1AD0D749B73563F /* Pods-SwiftUI_ContactForm_CleanArchitectureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitectureTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitectureTests/Pods-SwiftUI_ContactForm_CleanArchitectureTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B607E4EDAEE41A23FCEAEE7 /* Pods_SwiftUI_ContactForm_CleanArchitecture_SwiftUI_ContactForm_CleanArchitectureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_ContactForm_CleanArchitecture_SwiftUI_ContactForm_CleanArchitectureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		717FB61740F53C5E42ACEF44 /* Pods-SwiftUI_ContactForm_CleanArchitectureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitectureTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitectureTests/Pods-SwiftUI_ContactForm_CleanArchitectureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		927FCE32B1E640A7A6DCDB51 /* Pods-SwiftUI_ContactForm_CleanArchitecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitecture.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture/Pods-SwiftUI_ContactForm_CleanArchitecture.debug.xcconfig"; sourceTree = "<group>"; };
+		9ADA53A272E22A1D0C121981 /* Pods-SwiftUI_ContactForm_CleanArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitecture.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture/Pods-SwiftUI_ContactForm_CleanArchitecture.release.xcconfig"; sourceTree = "<group>"; };
+		BC5C77019FD8697EA9D28CBB /* Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC5AE64AF9CB57FA052F2A5A /* Pods_SwiftUI_ContactForm_CleanArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_ContactForm_CleanArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B7E6AFDB157E40C3647726 /* Pods_SwiftUI_ContactForm_CleanArchitectureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_ContactForm_CleanArchitectureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D796FF276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_ContactForm_CleanArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D79702276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContactForm_CleanArchitectureApp.swift; sourceTree = "<group>"; };
 		F4D79704276CC7000034A35C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +61,21 @@
 		F4D7971E276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_ContactForm_CleanArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D79722276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContactForm_CleanArchitectureUITests.swift; sourceTree = "<group>"; };
 		F4D79724276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4D79732276CD04B0034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D79734276CD0A20034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D79736276CD0E20034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D7973A276CD17B0034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D7973E276CD1F80034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D7973F276CD21C0034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D79741276CD26D0034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D79746276CD3A80034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D79747276CD3D90034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D79749276CD4320034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D7974A276CD5050034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D7974C276CD5820034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D7974E276CD69C0034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D79761276CD8BE0034A35C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4D79762276CD8EE0034A35C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				511FA07D78E6EB610D132152 /* Pods_SwiftUI_ContactForm_CleanArchitecture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6CAAB9E46714EEA95B6B0E /* Pods_SwiftUI_ContactForm_CleanArchitectureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +99,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D679BCE7043869FE7C6DD7E1 /* Pods_SwiftUI_ContactForm_CleanArchitecture_SwiftUI_ContactForm_CleanArchitectureUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6431F10876A7308B0D45FA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC5AE64AF9CB57FA052F2A5A /* Pods_SwiftUI_ContactForm_CleanArchitecture.framework */,
+				6B607E4EDAEE41A23FCEAEE7 /* Pods_SwiftUI_ContactForm_CleanArchitecture_SwiftUI_ContactForm_CleanArchitectureUITests.framework */,
+				E7B7E6AFDB157E40C3647726 /* Pods_SwiftUI_ContactForm_CleanArchitectureTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4D796F6276CC7000034A35C = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +123,8 @@
 				F4D79717276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests */,
 				F4D79721276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests */,
 				F4D79700276CC7000034A35C /* Products */,
+				FA57C76BD4714C874D914A31 /* Pods */,
+				A6431F10876A7308B0D45FA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +141,12 @@
 		F4D79701276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitecture */ = {
 			isa = PBXGroup;
 			children = (
+				F4D79731276CCF640034A35C /* DataInfrastructure */,
+				F4D79737276CD1220034A35C /* Domain */,
+				F4D79740276CD24B0034A35C /* Manager */,
+				F4D79742276CD2ED0034A35C /* Presentation */,
+				F4D7974B276CD5510034A35C /* Resources */,
+				F4D7974D276CD5E10034A35C /* Utils */,
 				F4D79702276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitectureApp.swift */,
 				F4D79704276CC7000034A35C /* ContentView.swift */,
 				F4D79706276CC7020034A35C /* Assets.xcassets */,
@@ -133,6 +182,163 @@
 			path = SwiftUI_ContactForm_CleanArchitectureUITests;
 			sourceTree = "<group>";
 		};
+		F4D79731276CCF640034A35C /* DataInfrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				F4D79732276CD04B0034A35C /* README.md */,
+				F4D79733276CD08C0034A35C /* Mapper */,
+				F4D79735276CD0C40034A35C /* Entities */,
+			);
+			path = DataInfrastructure;
+			sourceTree = "<group>";
+		};
+		F4D79733276CD08C0034A35C /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				F4D79734276CD0A20034A35C /* README.md */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		F4D79735276CD0C40034A35C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F4D79736276CD0E20034A35C /* README.md */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F4D79737276CD1220034A35C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7973B276CD1BF0034A35C /* DomainModel */,
+				F4D79738276CD1530034A35C /* Application */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F4D79738276CD1530034A35C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F4D79739276CD16D0034A35C /* UseCases */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F4D79739276CD16D0034A35C /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7973A276CD17B0034A35C /* README.md */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		F4D7973B276CD1BF0034A35C /* DomainModel */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7973D276CD1DD0034A35C /* Repositories */,
+				F4D7973C276CD1D40034A35C /* Model */,
+			);
+			path = DomainModel;
+			sourceTree = "<group>";
+		};
+		F4D7973C276CD1D40034A35C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7973F276CD21C0034A35C /* README.md */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4D7973D276CD1DD0034A35C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7973E276CD1F80034A35C /* README.md */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F4D79740276CD24B0034A35C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F4D79741276CD26D0034A35C /* README.md */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F4D79742276CD2ED0034A35C /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F4D79744276CD33B0034A35C /* ViewModels */,
+				F4D79743276CD3320034A35C /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F4D79743276CD3320034A35C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7974A276CD5050034A35C /* README.md */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4D79744276CD33B0034A35C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F4D79747276CD3D90034A35C /* README.md */,
+				F4D79748276CD4020034A35C /* Mapper */,
+				F4D79745276CD37F0034A35C /* Model */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F4D79745276CD37F0034A35C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4D79746276CD3A80034A35C /* README.md */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4D79748276CD4020034A35C /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				F4D79749276CD4320034A35C /* README.md */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		F4D7974B276CD5510034A35C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7974C276CD5820034A35C /* README.md */,
+				F4D7975F276CD8570034A35C /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F4D7974D276CD5E10034A35C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7974E276CD69C0034A35C /* README.md */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FA57C76BD4714C874D914A31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				927FCE32B1E640A7A6DCDB51 /* Pods-SwiftUI_ContactForm_CleanArchitecture.debug.xcconfig */,
+				9ADA53A272E22A1D0C121981 /* Pods-SwiftUI_ContactForm_CleanArchitecture.release.xcconfig */,
+				332BB45033342EE8DB278660 /* Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.debug.xcconfig */,
+				BC5C77019FD8697EA9D28CBB /* Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.release.xcconfig */,
+				717FB61740F53C5E42ACEF44 /* Pods-SwiftUI_ContactForm_CleanArchitectureTests.debug.xcconfig */,
+				47C8B19EB1AD0D749B73563F /* Pods-SwiftUI_ContactForm_CleanArchitectureTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +346,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4D79728276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI_ContactForm_CleanArchitecture" */;
 			buildPhases = (
+				9A8449DB6B3A906B4C8A0D65 /* [CP] Check Pods Manifest.lock */,
 				F4D796FB276CC7000034A35C /* Sources */,
 				F4D796FC276CC7000034A35C /* Frameworks */,
 				F4D796FD276CC7000034A35C /* Resources */,
@@ -157,6 +364,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4D7972B276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI_ContactForm_CleanArchitectureTests" */;
 			buildPhases = (
+				0F216C6A8E6DE90D46E38717 /* [CP] Check Pods Manifest.lock */,
 				F4D79710276CC7030034A35C /* Sources */,
 				F4D79711276CC7030034A35C /* Frameworks */,
 				F4D79712276CC7030034A35C /* Resources */,
@@ -175,6 +383,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4D7972E276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI_ContactForm_CleanArchitectureUITests" */;
 			buildPhases = (
+				34D2F743A40099ED8F5910A1 /* [CP] Check Pods Manifest.lock */,
 				F4D7971A276CC7030034A35C /* Sources */,
 				F4D7971B276CC7030034A35C /* Frameworks */,
 				F4D7971C276CC7030034A35C /* Resources */,
@@ -219,6 +428,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = F4D796F6276CC7000034A35C;
 			productRefGroup = F4D79700276CC7000034A35C /* Products */;
@@ -238,6 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D7970A276CC7020034A35C /* Preview Assets.xcassets in Resources */,
+				F4D7975D276CD8570034A35C /* Localizable.strings in Resources */,
 				F4D79707276CC7020034A35C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +468,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F216C6A8E6DE90D46E38717 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_ContactForm_CleanArchitectureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34D2F743A40099ED8F5910A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A8449DB6B3A906B4C8A0D65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_ContactForm_CleanArchitecture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4D796FB276CC7000034A35C /* Sources */ = {
@@ -301,6 +581,18 @@
 			targetProxy = F4D7971F276CC7030034A35C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4D7975F276CD8570034A35C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D79761276CD8BE0034A35C /* ja */,
+				F4D79762276CD8EE0034A35C /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F4D79726276CC7030034A35C /* Debug */ = {
@@ -421,6 +713,7 @@
 		};
 		F4D79729276CC7030034A35C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927FCE32B1E640A7A6DCDB51 /* Pods-SwiftUI_ContactForm_CleanArchitecture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +743,7 @@
 		};
 		F4D7972A276CC7030034A35C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADA53A272E22A1D0C121981 /* Pods-SwiftUI_ContactForm_CleanArchitecture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +773,7 @@
 		};
 		F4D7972C276CC7030034A35C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717FB61740F53C5E42ACEF44 /* Pods-SwiftUI_ContactForm_CleanArchitectureTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +799,7 @@
 		};
 		F4D7972D276CC7030034A35C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C8B19EB1AD0D749B73563F /* Pods-SwiftUI_ContactForm_CleanArchitectureTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +825,7 @@
 		};
 		F4D7972F276CC7030034A35C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332BB45033342EE8DB278660 /* Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +849,7 @@
 		};
 		F4D79730276CC7030034A35C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC5C77019FD8697EA9D28CBB /* Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
