@@ -20,6 +20,8 @@
 		F4D79723276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79722276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.swift */; };
 		F4D79725276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79724276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift */; };
 		F4D7975D276CD8570034A35C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4D7975F276CD8570034A35C /* Localizable.strings */; };
+		F4D79764276E1FF90034A35C /* ContactTopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79763276E1FF90034A35C /* ContactTopViewModel.swift */; };
+		F4D79767276E203A0034A35C /* ContactTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79766276E203A0034A35C /* ContactTopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		F4D7974E276CD69C0034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4D79761276CD8BE0034A35C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4D79762276CD8EE0034A35C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4D79763276E1FF90034A35C /* ContactTopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTopViewModel.swift; sourceTree = "<group>"; };
+		F4D79766276E203A0034A35C /* ContactTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +282,7 @@
 		F4D79743276CD3320034A35C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F4D79765276E20170034A35C /* Contact */,
 				F4D7974A276CD5050034A35C /* README.md */,
 			);
 			path = Views;
@@ -289,6 +294,7 @@
 				F4D79747276CD3D90034A35C /* README.md */,
 				F4D79748276CD4020034A35C /* Mapper */,
 				F4D79745276CD37F0034A35C /* Model */,
+				F4D79763276E1FF90034A35C /* ContactTopViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -324,6 +330,14 @@
 				F4D7974E276CD69C0034A35C /* README.md */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		F4D79765276E20170034A35C /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				F4D79766276E203A0034A35C /* ContactTopView.swift */,
+			);
+			path = Contact;
 			sourceTree = "<group>";
 		};
 		FA57C76BD4714C874D914A31 /* Pods */ = {
@@ -543,6 +557,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D79764276E1FF90034A35C /* ContactTopViewModel.swift in Sources */,
+				F4D79767276E203A0034A35C /* ContactTopView.swift in Sources */,
 				F4D7970C276CC7020034A35C /* Persistence.swift in Sources */,
 				F4D7970F276CC7020034A35C /* SwiftUI_ContactForm_CleanArchitecture.xcdatamodeld in Sources */,
 				F4D79705276CC7000034A35C /* ContentView.swift in Sources */,
