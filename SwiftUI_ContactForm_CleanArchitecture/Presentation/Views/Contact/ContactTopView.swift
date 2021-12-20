@@ -9,8 +9,23 @@ import Foundation
 import SwiftUI
 
 struct ContactTopView: View {
+    @ObservedObject private var viewModel = ContactTopViewModel()
+    @State private var isShowModal = false
+    
     var body: some View {
-        Text("ContactTopView")
+        NavigationView {
+            VStack {
+                Button {
+                    isShowModal.toggle()
+                } label: {
+                    Text("ContactTopView_UseContactForm".localizedString)
+                }
+                .accessibilityIdentifier("ContactTopView_UseContactForm")
+                .sheet(isPresented: $isShowModal) {
+                    
+                }
+            }
+        }
     }
 }
 

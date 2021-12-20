@@ -5,3 +5,7 @@
   Created by Hiroaki-Hirabayashi on 2021/12/17.
   
 */
+"Button_Title" = "こんにちは";
+"ContactFormView_BarTitle" = "お問い合わせ";
+"ContactTopView_UseContactForm" = "お問合せフォームを利用する";
+"ContactTopView_BarTitle" = "お問い合わせ";
