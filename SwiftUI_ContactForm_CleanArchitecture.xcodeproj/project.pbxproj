@@ -26,6 +26,14 @@
 		F4D7976E2770C89C0034A35C /* Bundle+Locator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7976D2770C89B0034A35C /* Bundle+Locator.swift */; };
 		F4D797702770C93C0034A35C /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7976F2770C93C0034A35C /* String+Localizable.swift */; };
 		F4D797722770CC8D0034A35C /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D797712770CC8D0034A35C /* Sample.swift */; };
+		F4D7977427735B190034A35C /* ContactFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7977327735B180034A35C /* ContactFormView.swift */; };
+		F4D7977727735C1C0034A35C /* ContactFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7977627735C1C0034A35C /* ContactFormViewModel.swift */; };
+		F4D7977927735E530034A35C /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D7977827735E530034A35C /* ColorAssets.xcassets */; };
+		F4D7977B27735EB40034A35C /* PlaceHolderTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7977A27735EB40034A35C /* PlaceHolderTextEditor.swift */; };
+		F4D7977D27735FE60034A35C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7977C27735FE60034A35C /* Color.swift */; };
+		F4D79780277365C80034A35C /* XCUIElement+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7977F277365C70034A35C /* XCUIElement+Async.swift */; };
+		F4D79782277366070034A35C /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79781277366070034A35C /* String+Localizable.swift */; };
+		F4D7978427736B010034A35C /* ContactFormViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7978327736B010034A35C /* ContactFormViewUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +96,14 @@
 		F4D7976D2770C89B0034A35C /* Bundle+Locator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Locator.swift"; sourceTree = "<group>"; };
 		F4D7976F2770C93C0034A35C /* String+Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
 		F4D797712770CC8D0034A35C /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		F4D7977327735B180034A35C /* ContactFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFormView.swift; sourceTree = "<group>"; };
+		F4D7977627735C1C0034A35C /* ContactFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFormViewModel.swift; sourceTree = "<group>"; };
+		F4D7977827735E530034A35C /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
+		F4D7977A27735EB40034A35C /* PlaceHolderTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextEditor.swift; sourceTree = "<group>"; };
+		F4D7977C27735FE60034A35C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F4D7977F277365C70034A35C /* XCUIElement+Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIElement+Async.swift"; sourceTree = "<group>"; };
+		F4D79781277366070034A35C /* String+Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
+		F4D7978327736B010034A35C /* ContactFormViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFormViewUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,14 +169,15 @@
 		F4D79701276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitecture */ = {
 			isa = PBXGroup;
 			children = (
+				F4D79702276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitectureApp.swift */,
 				F4D79731276CCF640034A35C /* DataInfrastructure */,
 				F4D79737276CD1220034A35C /* Domain */,
 				F4D79740276CD24B0034A35C /* Manager */,
 				F4D79742276CD2ED0034A35C /* Presentation */,
 				F4D7974B276CD5510034A35C /* Resources */,
 				F4D7974D276CD5E10034A35C /* Utils */,
-				F4D79702276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitectureApp.swift */,
 				F4D79706276CC7020034A35C /* Assets.xcassets */,
+				F4D7977827735E530034A35C /* ColorAssets.xcassets */,
 				F4D7970B276CC7020034A35C /* Persistence.swift */,
 				F4D7970D276CC7020034A35C /* SwiftUI_ContactForm_CleanArchitecture.xcdatamodeld */,
 				F4D79708276CC7020034A35C /* Preview Content */,
@@ -187,6 +204,7 @@
 		F4D79721276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests */ = {
 			isa = PBXGroup;
 			children = (
+				F4D7977E277365A10034A35C /* TestUtils */,
 				F4D797692770BF800034A35C /* Views */,
 				F4D79722276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.swift */,
 				F4D79724276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift */,
@@ -301,10 +319,10 @@
 		F4D79744276CD33B0034A35C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F4D7977527735BDF0034A35C /* Contact */,
 				F4D79747276CD3D90034A35C /* README.md */,
 				F4D79748276CD4020034A35C /* Mapper */,
 				F4D79745276CD37F0034A35C /* Model */,
-				F4D79763276E1FF90034A35C /* ContactTopViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -340,6 +358,8 @@
 				F4D7974E276CD69C0034A35C /* README.md */,
 				F4D7976D2770C89B0034A35C /* Bundle+Locator.swift */,
 				F4D7976F2770C93C0034A35C /* String+Localizable.swift */,
+				F4D7977A27735EB40034A35C /* PlaceHolderTextEditor.swift */,
+				F4D7977C27735FE60034A35C /* Color.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -348,6 +368,7 @@
 			isa = PBXGroup;
 			children = (
 				F4D79766276E203A0034A35C /* ContactTopView.swift */,
+				F4D7977327735B180034A35C /* ContactFormView.swift */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -364,8 +385,27 @@
 			isa = PBXGroup;
 			children = (
 				F4D7976B2770BFDD0034A35C /* ContactTopViewUITests.swift */,
+				F4D7978327736B010034A35C /* ContactFormViewUITests.swift */,
 			);
 			path = Contact;
+			sourceTree = "<group>";
+		};
+		F4D7977527735BDF0034A35C /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				F4D79763276E1FF90034A35C /* ContactTopViewModel.swift */,
+				F4D7977627735C1C0034A35C /* ContactFormViewModel.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		F4D7977E277365A10034A35C /* TestUtils */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7977F277365C70034A35C /* XCUIElement+Async.swift */,
+				F4D79781277366070034A35C /* String+Localizable.swift */,
+			);
+			path = TestUtils;
 			sourceTree = "<group>";
 		};
 		FA57C76BD4714C874D914A31 /* Pods */ = {
@@ -491,6 +531,7 @@
 			files = (
 				F4D7970A276CC7020034A35C /* Preview Assets.xcassets in Resources */,
 				F4D7975D276CD8570034A35C /* Localizable.strings in Resources */,
+				F4D7977927735E530034A35C /* ColorAssets.xcassets in Resources */,
 				F4D79707276CC7020034A35C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -589,11 +630,15 @@
 				F4D797722770CC8D0034A35C /* Sample.swift in Sources */,
 				F4D79767276E203A0034A35C /* ContactTopView.swift in Sources */,
 				F4D7976E2770C89C0034A35C /* Bundle+Locator.swift in Sources */,
+				F4D7977D27735FE60034A35C /* Color.swift in Sources */,
 				F4D7970C276CC7020034A35C /* Persistence.swift in Sources */,
 				F4D7970F276CC7020034A35C /* SwiftUI_ContactForm_CleanArchitecture.xcdatamodeld in Sources */,
 				F4D79705276CC7000034A35C /* ContentView.swift in Sources */,
 				F4D79703276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitectureApp.swift in Sources */,
+				F4D7977727735C1C0034A35C /* ContactFormViewModel.swift in Sources */,
+				F4D7977B27735EB40034A35C /* PlaceHolderTextEditor.swift in Sources */,
 				F4D797702770C93C0034A35C /* String+Localizable.swift in Sources */,
+				F4D7977427735B190034A35C /* ContactFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,7 +655,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D7976C2770BFDD0034A35C /* ContactTopViewUITests.swift in Sources */,
+				F4D7978427736B010034A35C /* ContactFormViewUITests.swift in Sources */,
+				F4D79782277366070034A35C /* String+Localizable.swift in Sources */,
 				F4D79725276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift in Sources */,
+				F4D79780277365C80034A35C /* XCUIElement+Async.swift in Sources */,
 				F4D79723276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

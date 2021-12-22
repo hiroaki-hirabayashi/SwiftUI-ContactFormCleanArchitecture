@@ -5,9 +5,12 @@
 //  Created by Hiroaki-Hirabayashi on 2021/12/18.
 //
 
-import Foundation
 import Combine
 
 class ContactTopViewModel: ObservableObject {
+    @Published var foundMessage: String = ""
 
+    func getFoundAnsweredInquiry() {
+        foundMessage = "ContactTopView_FoundAnswered_Message".localizedString
+    }
 }
