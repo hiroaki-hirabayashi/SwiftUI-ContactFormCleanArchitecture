@@ -7,7 +7,7 @@
 
 import Combine
 
-class ContactTopViewModel: ObservableObject {
+final class ContactTopViewModel: ObservableObject {
     @Published var foundMessage: String = ""
 
     func getFoundAnsweredInquiry() {

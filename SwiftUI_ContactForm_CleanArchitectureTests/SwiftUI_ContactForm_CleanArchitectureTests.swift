@@ -4,7 +4,7 @@
 //
 //  Created by Hiroaki-Hirabayashi on 2021/12/17.
 //
-
+import Cuckoo
 import XCTest
 @testable import SwiftUI_ContactForm_CleanArchitecture
 
@@ -19,10 +19,12 @@ class SwiftUI_ContactForm_CleanArchitectureTests: XCTestCase {
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let mock = MockMockTest()
+        stub(mock) { stub in
+            when(stub.getTestData()).thenReturn("result")
+        }
     }
-
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
