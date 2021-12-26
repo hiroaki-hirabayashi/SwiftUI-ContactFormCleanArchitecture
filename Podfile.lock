@@ -1,3 +1,30 @@
-PODFILE CHECKSUM: dc781e7968b03e9f0d0a422ad91a98a03b56be21
+PODS:
+  - Alamofire (5.4.4)
+  - Cuckoo (1.5.2):
+    - Cuckoo/Swift (= 1.5.2)
+  - Cuckoo/Swift (1.5.2)
+  - SwiftLint (0.45.1)
+  - Swinject (2.8.1)
 
-COCOAPODS: 1.11.2
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - Cuckoo
+  - SwiftLint
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cuckoo
+    - SwiftLint
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Cuckoo: df291c2d8462a39a16494a9db4ef112f5ca3bdc0
+  SwiftLint: 06ac37e4d38c7068e0935bb30cda95f093bec761
+  Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
+
+PODFILE CHECKSUM: 3562878426796477958a4a90d26c0781bc5f4d90
+
+COCOAPODS: 1.10.2

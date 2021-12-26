@@ -91,7 +91,7 @@ PLATFORMS
   universal-darwin-21
 
 DEPENDENCIES
-  cocoapods (= 1.11.2)
+  cocoapods (= 1.10.2)
 
 BUNDLED WITH
    2.2.33

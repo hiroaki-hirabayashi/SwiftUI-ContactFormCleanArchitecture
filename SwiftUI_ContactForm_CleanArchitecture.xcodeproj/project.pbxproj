@@ -177,7 +177,6 @@
 				F4D7974B276CD5510034A35C /* Resources */,
 				F4D7974D276CD5E10034A35C /* Utils */,
 				F4D79706276CC7020034A35C /* Assets.xcassets */,
-				F4D7977827735E530034A35C /* ColorAssets.xcassets */,
 				F4D7970B276CC7020034A35C /* Persistence.swift */,
 				F4D7970D276CC7020034A35C /* SwiftUI_ContactForm_CleanArchitecture.xcdatamodeld */,
 				F4D79708276CC7020034A35C /* Preview Content */,
@@ -348,6 +347,7 @@
 			children = (
 				F4D7974C276CD5820034A35C /* README.md */,
 				F4D7975F276CD8570034A35C /* Localizable.strings */,
+				F4D7977827735E530034A35C /* ColorAssets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -432,6 +432,8 @@
 				F4D796FB276CC7000034A35C /* Sources */,
 				F4D796FC276CC7000034A35C /* Frameworks */,
 				F4D796FD276CC7000034A35C /* Resources */,
+				F47C3EC52778A3B300CDD87C /* Run Script */,
+				0E72239B9E1CFBCFBA2DC761 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -450,6 +452,7 @@
 				F4D79710276CC7030034A35C /* Sources */,
 				F4D79711276CC7030034A35C /* Frameworks */,
 				F4D79712276CC7030034A35C /* Resources */,
+				481148CDAFFF8E7D5A9139EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -469,6 +472,7 @@
 				F4D7971A276CC7030034A35C /* Sources */,
 				F4D7971B276CC7030034A35C /* Frameworks */,
 				F4D7971C276CC7030034A35C /* Resources */,
+				15FCF64C8823927653EEC1F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -553,6 +557,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E72239B9E1CFBCFBA2DC761 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture/Pods-SwiftUI_ContactForm_CleanArchitecture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture/Pods-SwiftUI_ContactForm_CleanArchitecture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture/Pods-SwiftUI_ContactForm_CleanArchitecture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		0F216C6A8E6DE90D46E38717 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -573,6 +594,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15FCF64C8823927653EEC1F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		34D2F743A40099ED8F5910A1 /* [CP] Check Pods Manifest.lock */ = {
@@ -597,6 +635,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		481148CDAFFF8E7D5A9139EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitectureTests/Pods-SwiftUI_ContactForm_CleanArchitectureTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitectureTests/Pods-SwiftUI_ContactForm_CleanArchitectureTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitectureTests/Pods-SwiftUI_ContactForm_CleanArchitectureTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9A8449DB6B3A906B4C8A0D65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -618,6 +673,24 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		F47C3EC52778A3B300CDD87C /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Type a script or drag a script file from your workspace to insert its path.\nif [ $ACTION == \"indexbuild\" ]; then\n  echo \"Not running Cuckoo generator during indexing.\"\n  exit 0\nfi\n\n# Skip for preview builds\nif [ \"${ENABLE_PREVIEWS}\" = \"YES\" ]; then\n  echo \"Not running Cuckoo generator during preview builds.\"\n  exit 0\nfi\n\n# テストディレクトリを指定する\nOUTPUT_FILE=\"${PROJECT_DIR}/SwiftUI_ContactForm_CleanArchitectureTests/GeneratedMocks.swift\"\necho \"Generated Mocks File = ${OUTPUT_FILE}\"\n\n# モジュールディレクトリを指定する\n# INPUT_DIR=\"${PROJECT_DIR}/UnivPredevContent\"\n# echo \"Mocks Input Directory = ${INPUT_DIR}\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n# モックの対象となるprotocolファイルをここに追記していく\nMODULE_NAME=\"UnivPredevContent\"\n\"${PODS_ROOT}/Cuckoo/run\" generate --testable \"${MODULE_NAME}\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"${INPUT_DIR}/Domain/DomainModel/Repositories/MockTest.swift\" \\\n\"${INPUT_DIR}/Domain/DomainModel/Repositories/Inquiry/InquiryHttpRepository.swift\" \\\n\"${INPUT_DIR}/Domain/Application/UseCases/Inquiry/InquiryUseCase.swift\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
