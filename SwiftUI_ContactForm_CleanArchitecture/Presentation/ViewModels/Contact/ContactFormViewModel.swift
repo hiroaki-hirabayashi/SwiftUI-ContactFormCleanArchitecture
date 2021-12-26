@@ -7,6 +7,6 @@
 
 import Foundation
 
-class ContactFormViewModel: ObservableObject {
+final class ContactFormViewModel: ObservableObject {
     @Published var text: String = ""
 }
