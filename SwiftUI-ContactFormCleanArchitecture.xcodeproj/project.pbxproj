@@ -83,16 +83,16 @@
 		F47C3EE32778BBDE00CDD87C /* InquiryUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryUseCaseImpl.swift; sourceTree = "<group>"; };
 		F47C3EE82778BF7100CDD87C /* InquiryUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryUseCaseTests.swift; sourceTree = "<group>"; };
 		F47C3EEA2778C0DC00CDD87C /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
-		F4D796FF276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_ContactForm_CleanArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D796FF276CC7000034A35C /* SwiftUI-ContactFormCleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-ContactFormCleanArchitecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D79702276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContactForm_CleanArchitectureApp.swift; sourceTree = "<group>"; };
 		F4D79704276CC7000034A35C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4D79706276CC7020034A35C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D79709276CC7020034A35C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4D7970B276CC7020034A35C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F4D7970E276CC7020034A35C /* SwiftUI_ContactForm_CleanArchitecture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_ContactForm_CleanArchitecture.xcdatamodel; sourceTree = "<group>"; };
-		F4D79714276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_ContactForm_CleanArchitectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D79714276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-ContactFormCleanArchitectureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D79718276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContactForm_CleanArchitectureTests.swift; sourceTree = "<group>"; };
-		F4D7971E276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_ContactForm_CleanArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D7971E276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-ContactFormCleanArchitectureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D79722276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContactForm_CleanArchitectureUITests.swift; sourceTree = "<group>"; };
 		F4D79724276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F4D79732276CD04B0034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -262,9 +262,9 @@
 		F4D79700276CC7000034A35C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4D796FF276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitecture.app */,
-				F4D79714276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests.xctest */,
-				F4D7971E276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.xctest */,
+				F4D796FF276CC7000034A35C /* SwiftUI-ContactFormCleanArchitecture.app */,
+				F4D79714276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureTests.xctest */,
+				F4D7971E276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -535,9 +535,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4D796FE276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitecture */ = {
+		F4D796FE276CC7000034A35C /* SwiftUI-ContactFormCleanArchitecture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4D79728276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI_ContactForm_CleanArchitecture" */;
+			buildConfigurationList = F4D79728276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI-ContactFormCleanArchitecture" */;
 			buildPhases = (
 				9A8449DB6B3A906B4C8A0D65 /* [CP] Check Pods Manifest.lock */,
 				F4D796FB276CC7000034A35C /* Sources */,
@@ -550,14 +550,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUI_ContactForm_CleanArchitecture;
+			name = "SwiftUI-ContactFormCleanArchitecture";
 			productName = SwiftUI_ContactForm_CleanArchitecture;
-			productReference = F4D796FF276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitecture.app */;
+			productReference = F4D796FF276CC7000034A35C /* SwiftUI-ContactFormCleanArchitecture.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F4D79713276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests */ = {
+		F4D79713276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4D7972B276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI_ContactForm_CleanArchitectureTests" */;
+			buildConfigurationList = F4D7972B276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI-ContactFormCleanArchitectureTests" */;
 			buildPhases = (
 				0F216C6A8E6DE90D46E38717 /* [CP] Check Pods Manifest.lock */,
 				F4D79710276CC7030034A35C /* Sources */,
@@ -570,14 +570,14 @@
 			dependencies = (
 				F4D79716276CC7030034A35C /* PBXTargetDependency */,
 			);
-			name = SwiftUI_ContactForm_CleanArchitectureTests;
+			name = "SwiftUI-ContactFormCleanArchitectureTests";
 			productName = SwiftUI_ContactForm_CleanArchitectureTests;
-			productReference = F4D79714276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests.xctest */;
+			productReference = F4D79714276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F4D7971D276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests */ = {
+		F4D7971D276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4D7972E276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI_ContactForm_CleanArchitectureUITests" */;
+			buildConfigurationList = F4D7972E276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI-ContactFormCleanArchitectureUITests" */;
 			buildPhases = (
 				34D2F743A40099ED8F5910A1 /* [CP] Check Pods Manifest.lock */,
 				F4D7971A276CC7030034A35C /* Sources */,
@@ -590,9 +590,9 @@
 			dependencies = (
 				F4D79720276CC7030034A35C /* PBXTargetDependency */,
 			);
-			name = SwiftUI_ContactForm_CleanArchitectureUITests;
+			name = "SwiftUI-ContactFormCleanArchitectureUITests";
 			productName = SwiftUI_ContactForm_CleanArchitectureUITests;
-			productReference = F4D7971E276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.xctest */;
+			productReference = F4D7971E276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -618,7 +618,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F4D796FA276CC7000034A35C /* Build configuration list for PBXProject "SwiftUI_ContactForm_CleanArchitecture" */;
+			buildConfigurationList = F4D796FA276CC7000034A35C /* Build configuration list for PBXProject "SwiftUI-ContactFormCleanArchitecture" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -632,9 +632,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4D796FE276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitecture */,
-				F4D79713276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests */,
-				F4D7971D276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests */,
+				F4D796FE276CC7000034A35C /* SwiftUI-ContactFormCleanArchitecture */,
+				F4D79713276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureTests */,
+				F4D7971D276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -861,12 +861,12 @@
 /* Begin PBXTargetDependency section */
 		F4D79716276CC7030034A35C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F4D796FE276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitecture */;
+			target = F4D796FE276CC7000034A35C /* SwiftUI-ContactFormCleanArchitecture */;
 			targetProxy = F4D79715276CC7030034A35C /* PBXContainerItemProxy */;
 		};
 		F4D79720276CC7030034A35C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F4D796FE276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitecture */;
+			target = F4D796FE276CC7000034A35C /* SwiftUI-ContactFormCleanArchitecture */;
 			targetProxy = F4D7971F276CC7030034A35C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1082,7 +1082,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI_ContactForm_CleanArchitecture.app/SwiftUI_ContactForm_CleanArchitecture";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-ContactFormCleanArchitecture.app/SwiftUI-ContactFormCleanArchitecture";
 			};
 			name = Debug;
 		};
@@ -1108,7 +1108,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI_ContactForm_CleanArchitecture.app/SwiftUI_ContactForm_CleanArchitecture";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-ContactFormCleanArchitecture.app/SwiftUI-ContactFormCleanArchitecture";
 			};
 			name = Release;
 		};
@@ -1163,7 +1163,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4D796FA276CC7000034A35C /* Build configuration list for PBXProject "SwiftUI_ContactForm_CleanArchitecture" */ = {
+		F4D796FA276CC7000034A35C /* Build configuration list for PBXProject "SwiftUI-ContactFormCleanArchitecture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4D79726276CC7030034A35C /* Debug */,
@@ -1172,7 +1172,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4D79728276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI_ContactForm_CleanArchitecture" */ = {
+		F4D79728276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI-ContactFormCleanArchitecture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4D79729276CC7030034A35C /* Debug */,
@@ -1181,7 +1181,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4D7972B276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI_ContactForm_CleanArchitectureTests" */ = {
+		F4D7972B276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI-ContactFormCleanArchitectureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4D7972C276CC7030034A35C /* Debug */,
@@ -1190,7 +1190,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4D7972E276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI_ContactForm_CleanArchitectureUITests" */ = {
+		F4D7972E276CC7030034A35C /* Build configuration list for PBXNativeTarget "SwiftUI-ContactFormCleanArchitectureUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4D7972F276CC7030034A35C /* Debug */,

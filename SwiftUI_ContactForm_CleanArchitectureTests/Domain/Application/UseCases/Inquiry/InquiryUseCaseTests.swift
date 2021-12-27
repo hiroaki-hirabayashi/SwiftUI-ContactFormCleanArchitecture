@@ -36,11 +36,11 @@ class InquiryUseCaseTests: XCTestCase {
         wait(for: [exp], timeout: 5.0)
     }
     
+    // お問い合わせメッセージが0文字の時
     func testSendInquiryEmptyString() throws {
         let mock = MockInquiryHttpRepositoryProtocol()
         DIContainer.shared.setInquiryHttpRepository(repository: mock)
         let inquiryUseCases = DIContainer.shared.getInquiryUseCase()
-        
         let exp = expectation(description: "sendInquiry")
         inquiryUseCases.sendInquiry(inquiry: Inquiry(description: "")) { error in
             XCTAssertNotNil(error)
@@ -48,7 +48,7 @@ class InquiryUseCaseTests: XCTestCase {
         }
         wait(for: [exp], timeout: 5.0)
     }
-    
+    // お問い合わせメッセージが4000文字以上の時
     func testSendInquiryOverString() throws {
         let mock = MockInquiryHttpRepositoryProtocol()
         DIContainer.shared.setInquiryHttpRepository(repository: mock)
