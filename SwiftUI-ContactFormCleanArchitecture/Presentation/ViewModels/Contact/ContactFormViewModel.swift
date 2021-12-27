@@ -8,5 +8,13 @@
 import Foundation
 
 final class ContactFormViewModel: ObservableObject {
-    @Published var text: String = ""
+    @Published var text = ""
+    private let inquiryUseCase: InquiryUseCaseProtocol = DIContainer.shared.getInquiryUseCase()
+    
+    func sendInquiry(_ completed: @escaping(_ error: Error?) -> Void) {
+        let mapper = InquiryViewModelMapper()
+        inquiryUseCase.sendInquiry(inquiry: mapper.viewModelToDomain(model: text)) { error in
+            completed(error)
+        }
+    }
 }

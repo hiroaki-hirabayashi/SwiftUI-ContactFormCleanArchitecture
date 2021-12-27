@@ -51,4 +51,8 @@ final class DIContainer {
     func getInquiryUseCase() -> InquiryUseCaseProtocol {
         return container.resolve(InquiryUseCaseProtocol.self)!
     }
+    
+    func setInquiryUseCase(useCase: InquiryUseCaseProtocol) {
+        container.register(InquiryUseCaseProtocol.self) { _ in useCase}
+    }
 }

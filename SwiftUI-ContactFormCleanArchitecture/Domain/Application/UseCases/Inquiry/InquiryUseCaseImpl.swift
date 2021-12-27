@@ -8,11 +8,6 @@
 import Foundation
 
 final class InquiryUseCaseImpl: InquiryUseCaseProtocol {
-    enum InquiryUseCaceError: Error {
-        case empty
-        case overString
-    }
-    
     private let inquiryHttpRepository: InquiryHttpRepositoryProtocol
     
     init(inquiryHttpRepository: InquiryHttpRepositoryProtocol) {
@@ -23,20 +18,23 @@ final class InquiryUseCaseImpl: InquiryUseCaseProtocol {
     func sendInquiry(inquiry: Inquiry, completed: @escaping (Error?) -> Void) {
         // 送信メッセージが空の時
         if inquiry.description.isEmpty {
-            completed(InquiryUseCaceError.empty)
+            completed(InquiryUseCaseError.empty)
             return
         }
         // 送信メッセージが4000文字以上の時
         if inquiry.description.count > 4000 {
-            completed(InquiryUseCaceError.overString)
+            completed(InquiryUseCaseError.overString)
             return
         }
         
         inquiryHttpRepository.sendInquiry(inquiry: inquiry) { error in
             completed(error)
         }
-        
     }
     
-    
+    func foundAnsweredInquiry(completed: @escaping (Bool, Error?) -> Void) {
+        inquiryHttpRepository.foundAnsweredInquiry { result, error in
+            completed(!result.isEmpty, error)
+        }
+    }
 }
