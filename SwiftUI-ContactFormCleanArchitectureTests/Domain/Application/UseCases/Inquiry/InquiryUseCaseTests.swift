@@ -6,8 +6,7 @@
 //
 import Cuckoo
 import XCTest
-@testable import SwiftUI_ContactForm_CleanArchitecture
-
+@testable import SwiftUI_ContactFormCleanArchitecture
 
 class InquiryUseCaseTests: XCTestCase {
     
@@ -17,6 +16,7 @@ class InquiryUseCaseTests: XCTestCase {
     override func tearDownWithError() throws {
     }
     
+    // お問い合わせメッセージ
     func testSendInquiry() throws {
         let mock = MockInquiryHttpRepositoryProtocol()
         DIContainer.shared.setInquiryHttpRepository(repository: mock)
@@ -62,6 +62,94 @@ class InquiryUseCaseTests: XCTestCase {
         let exp = expectation(description: "sendInquiry")
         inquiryUseCases.sendInquiry(inquiry: Inquiry(description: text)) { error in
             XCTAssertNotNil(error)
+            exp.fulfill()
+        }
+        wait(for: [exp], timeout: 5.0)
+    }
+    
+    // お問い合わせメッセージ送信エラー
+    func testSendInquiryRepositoryError() throws {
+        let mock = MockInquiryHttpRepositoryProtocol()
+        DIContainer.shared.setInquiryHttpRepository(repository: mock)
+        let inquiryUseCases = DIContainer.shared.getInquiryUseCase()
+        
+        stub(mock) { stub in
+            when(stub.sendInquiry(inquiry: any(), completed: any()))
+                .then { _, completed in completed(InquiryHttpRepositoryError.connectionFail) }
+        }
+        
+        let exp = expectation(description: "sendInquiry")
+        inquiryUseCases.sendInquiry(inquiry: Inquiry(description: "予約できませんでした")) { error in
+            XCTAssertNotNil(error)
+            exp.fulfill()
+        }
+        verify(mock).sendInquiry(inquiry: any(), completed: any())
+        wait(for: [exp], timeout: 5.0)
+    }
+    
+    // 回答メッセージあり
+    func testFoundAnsweredInquiryExist() throws {
+        let mock = MockInquiryHttpRepositoryProtocol()
+        DIContainer.shared.setInquiryHttpRepository(repository: mock)
+        let inquiryUseCases = DIContainer.shared.getInquiryUseCase()
+        
+        stub(mock) { stub in
+            when(stub.foundAnsweredInquiry(completed: any()))
+                .then { completed in
+                    completed(
+                        [AnsweredInquiry(answer: "answer", answeredAT: Date(), inquiry: Inquiry(description:"inquiry"))], nil
+                    )
+                }
+        }
+        
+        let exp = expectation(description: "foundAnsweredInquiry")
+        inquiryUseCases.foundAnsweredInquiry { exist, error in
+            XCTAssertNil(error)
+            XCTAssertTrue(exist)
+            exp.fulfill()
+        }
+        wait(for: [exp], timeout: 5.0)
+    }
+    
+    // 回答メッセージなし
+    func testFoundAnsweredInquiryNotExist() throws {
+        let mock = MockInquiryHttpRepositoryProtocol()
+        DIContainer.shared.setInquiryHttpRepository(repository: mock)
+        let inquiryUseCases = DIContainer.shared.getInquiryUseCase()
+        
+        stub(mock) { stub in
+            when(stub.foundAnsweredInquiry(completed: any()))
+                .then { completed in
+                    completed([], nil)
+                }
+        }
+        
+        let exp = expectation(description: "foundAnsweredInquiry")
+        inquiryUseCases.foundAnsweredInquiry { exist, error in
+            XCTAssertNil(error)
+            XCTAssertFalse(exist)
+            exp.fulfill()
+        }
+        wait(for: [exp], timeout: 5.0)
+    }
+    
+    // 回答メッセージ送信エラー
+    func testFoundAnsweredInquiryRepositoryError() throws {
+        let mock = MockInquiryHttpRepositoryProtocol()
+        DIContainer.shared.setInquiryHttpRepository(repository: mock)
+        let inquiryUseCases = DIContainer.shared.getInquiryUseCase()
+        
+        stub(mock) { stub in
+            when(stub.foundAnsweredInquiry(completed: any()))
+                .then { completed in
+                    completed([], InquiryHttpRepositoryError.connectionFail)
+                }
+        }
+        
+        let exp = expectation(description: "foundAnsweredInquiry")
+        inquiryUseCases.foundAnsweredInquiry { exist, error in
+            XCTAssertNotNil(error)
+            XCTAssertFalse(exist)
             exp.fulfill()
         }
         wait(for: [exp], timeout: 5.0)

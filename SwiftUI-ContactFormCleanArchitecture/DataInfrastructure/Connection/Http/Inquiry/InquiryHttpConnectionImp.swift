@@ -12,5 +12,9 @@ final class InquiryHttpConnectionImp: InquiryHttpRepositoryProtocol {
         
     }
     
+    func foundAnsweredInquiry(completed: @escaping ([AnsweredInquiry], Error?) -> Void) {
+    }
+    
+    
     
 }

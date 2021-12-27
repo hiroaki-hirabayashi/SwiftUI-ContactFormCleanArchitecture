@@ -7,6 +7,11 @@
 
 import Foundation
 
+enum InquiryHttpRepositoryError: Error {
+    case connectionFail
+}
+
 protocol InquiryHttpRepositoryProtocol {
     func sendInquiry(inquiry: Inquiry, completed: @escaping (_ error: Error?) -> Void)
+    func foundAnsweredInquiry(completed: @escaping (_ result: [AnsweredInquiry], _ error: Error?) -> Void)
 }

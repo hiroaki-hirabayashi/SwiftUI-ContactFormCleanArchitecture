@@ -6,9 +6,9 @@
 //
 import Cuckoo
 import XCTest
-@testable import SwiftUI-ContactFormCleanArchitecture
+//@testable import SwiftUI-ContactFormCleanArchitecture
 
-class SwiftUI-ContactFormCleanArchitectureTests: XCTestCase {
+class SwiftUIContactFormCleanArchitectureTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
