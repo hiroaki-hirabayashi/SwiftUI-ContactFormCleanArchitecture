@@ -1,23 +1,23 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'SwiftUI_ContactForm_CleanArchitecture' do
+target 'SwiftUI-ContactFormCleanArchitecture' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   
-  # Pods for SwiftUI_ContactForm_CleanArchitecture
+  # Pods for SwiftUI-ContactFormCleanArchitecture
   pod 'SwiftLint'
   pod 'Alamofire', '~> 5.4'
   pod 'Swinject'
   
-  target 'SwiftUI_ContactForm_CleanArchitectureTests' do
+  target 'SwiftUI-ContactFormCleanArchitectureTests' do
     inherit! :search_paths
     # Pods for testing
     pod "Cuckoo"
     pod 'Swinject'
   end
   
-  target 'SwiftUI_ContactForm_CleanArchitectureUITests' do
+  target 'SwiftUI-ContactFormCleanArchitectureUITests' do
     # Pods for testing
     pod 'Swinject'
   end

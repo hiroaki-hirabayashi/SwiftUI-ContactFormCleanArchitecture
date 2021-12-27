@@ -1,4 +1,4 @@
-// MARK: - Mocks generated from file: SwiftUI_ContactForm_CleanArchitecture/Domain/DomainModel/Repositories/Inquiry/InquiryHttpRepository.swift at 2021-12-26 15:37:11 +0000
+// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/DomainModel/Repositories/Inquiry/InquiryHttpRepository.swift at 2021-12-27 08:36:08 +0000
 
 //
 //  InquiryHttpRepository.swift
@@ -8,7 +8,7 @@
 //
 
 import Cuckoo
-@testable import SwiftUI_ContactForm_CleanArchitecture
+@testable import SwiftUI_ContactFormCleanArchitecture
 
 import Foundation
 
@@ -103,7 +103,7 @@ import Foundation
 }
 
 
-// MARK: - Mocks generated from file: SwiftUI_ContactForm_CleanArchitecture/Domain/DomainModel/Repositories/MockTest.swift at 2021-12-26 15:37:11 +0000
+// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/DomainModel/Repositories/MockTest.swift at 2021-12-27 08:36:08 +0000
 
 //
 //  MockTest.swift
@@ -113,7 +113,7 @@ import Foundation
 //
 
 import Cuckoo
-@testable import SwiftUI_ContactForm_CleanArchitecture
+@testable import SwiftUI_ContactFormCleanArchitecture
 
 
  class MockMockTest: MockTest, Cuckoo.ProtocolMock {

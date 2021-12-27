@@ -17,7 +17,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F4D79713276CC7030034A35C"
-               BuildableName = "SwiftUI_ContactForm_CleanArchitectureTests.xctest"
+               BuildableName = "SwiftUI-ContactFormCleanArchitectureTests.xctest"
                BlueprintName = "SwiftUI-ContactFormCleanArchitectureTests"
                ReferencedContainer = "container:SwiftUI-ContactFormCleanArchitecture.xcodeproj">
             </BuildableReference>
