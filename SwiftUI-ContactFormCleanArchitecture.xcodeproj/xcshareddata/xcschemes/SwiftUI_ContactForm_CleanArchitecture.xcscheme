@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F4D796FE276CC7000034A35C"
                BuildableName = "SwiftUI_ContactForm_CleanArchitecture.app"
-               BlueprintName = "SwiftUI_ContactForm_CleanArchitecture"
-               ReferencedContainer = "container:SwiftUI_ContactForm_CleanArchitecture.xcodeproj">
+               BlueprintName = "SwiftUI-ContactFormCleanArchitecture"
+               ReferencedContainer = "container:SwiftUI-ContactFormCleanArchitecture.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F4D79713276CC7030034A35C"
                BuildableName = "SwiftUI_ContactForm_CleanArchitectureTests.xctest"
-               BlueprintName = "SwiftUI_ContactForm_CleanArchitectureTests"
-               ReferencedContainer = "container:SwiftUI_ContactForm_CleanArchitecture.xcodeproj">
+               BlueprintName = "SwiftUI-ContactFormCleanArchitectureTests"
+               ReferencedContainer = "container:SwiftUI-ContactFormCleanArchitecture.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -44,8 +44,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F4D7971D276CC7030034A35C"
                BuildableName = "SwiftUI_ContactForm_CleanArchitectureUITests.xctest"
-               BlueprintName = "SwiftUI_ContactForm_CleanArchitectureUITests"
-               ReferencedContainer = "container:SwiftUI_ContactForm_CleanArchitecture.xcodeproj">
+               BlueprintName = "SwiftUI-ContactFormCleanArchitectureUITests"
+               ReferencedContainer = "container:SwiftUI-ContactFormCleanArchitecture.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -66,8 +66,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F4D796FE276CC7000034A35C"
             BuildableName = "SwiftUI_ContactForm_CleanArchitecture.app"
-            BlueprintName = "SwiftUI_ContactForm_CleanArchitecture"
-            ReferencedContainer = "container:SwiftUI_ContactForm_CleanArchitecture.xcodeproj">
+            BlueprintName = "SwiftUI-ContactFormCleanArchitecture"
+            ReferencedContainer = "container:SwiftUI-ContactFormCleanArchitecture.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -83,8 +83,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F4D796FE276CC7000034A35C"
             BuildableName = "SwiftUI_ContactForm_CleanArchitecture.app"
-            BlueprintName = "SwiftUI_ContactForm_CleanArchitecture"
-            ReferencedContainer = "container:SwiftUI_ContactForm_CleanArchitecture.xcodeproj">
+            BlueprintName = "SwiftUI-ContactFormCleanArchitecture"
+            ReferencedContainer = "container:SwiftUI-ContactFormCleanArchitecture.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
