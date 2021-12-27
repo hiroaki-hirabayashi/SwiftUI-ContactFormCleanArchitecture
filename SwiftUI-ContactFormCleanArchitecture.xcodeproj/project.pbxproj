@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		511FA07D78E6EB610D132152 /* Pods_SwiftUI_ContactForm_CleanArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5AE64AF9CB57FA052F2A5A /* Pods_SwiftUI_ContactForm_CleanArchitecture.framework */; };
-		CB6CAAB9E46714EEA95B6B0E /* Pods_SwiftUI_ContactForm_CleanArchitectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B7E6AFDB157E40C3647726 /* Pods_SwiftUI_ContactForm_CleanArchitectureTests.framework */; };
-		D679BCE7043869FE7C6DD7E1 /* Pods_SwiftUI_ContactForm_CleanArchitecture_SwiftUI_ContactForm_CleanArchitectureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B607E4EDAEE41A23FCEAEE7 /* Pods_SwiftUI_ContactForm_CleanArchitecture_SwiftUI_ContactForm_CleanArchitectureUITests.framework */; };
+		0E32BFE86FA22BE3C8F9753E /* Pods_SwiftUI_ContactFormCleanArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505B3A336D40038FB4928970 /* Pods_SwiftUI_ContactFormCleanArchitecture.framework */; };
+		AE4374A86B00EC7A535ED8C3 /* Pods_SwiftUI_ContactFormCleanArchitecture_SwiftUI_ContactFormCleanArchitectureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8B345BC35467AF0AC9151D /* Pods_SwiftUI_ContactFormCleanArchitecture_SwiftUI_ContactFormCleanArchitectureUITests.framework */; };
 		F47C3ECE2778B3DC00CDD87C /* Cuckoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47C3ECD2778B3DC00CDD87C /* Cuckoo.framework */; };
 		F47C3ED02778B4D600CDD87C /* MockTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3ECF2778B4D600CDD87C /* MockTest.swift */; };
 		F47C3ED42778B5C900CDD87C /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3ED32778B5C900CDD87C /* GeneratedMocks.swift */; };
@@ -20,15 +19,14 @@
 		F47C3EE42778BBDE00CDD87C /* InquiryUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3EE32778BBDE00CDD87C /* InquiryUseCaseImpl.swift */; };
 		F47C3EE92778BF7100CDD87C /* InquiryUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3EE82778BF7100CDD87C /* InquiryUseCaseTests.swift */; };
 		F47C3EEB2778C0DC00CDD87C /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3EEA2778C0DC00CDD87C /* DIContainer.swift */; };
-		F4D79703276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79702276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitectureApp.swift */; };
+		F4D79703276CC7000034A35C /* SwiftUI-ContactFormCleanArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79702276CC7000034A35C /* SwiftUI-ContactFormCleanArchitectureApp.swift */; };
 		F4D79705276CC7000034A35C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79704276CC7000034A35C /* ContentView.swift */; };
 		F4D79707276CC7020034A35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D79706276CC7020034A35C /* Assets.xcassets */; };
 		F4D7970A276CC7020034A35C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D79709276CC7020034A35C /* Preview Assets.xcassets */; };
 		F4D7970C276CC7020034A35C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7970B276CC7020034A35C /* Persistence.swift */; };
-		F4D7970F276CC7020034A35C /* SwiftUI_ContactForm_CleanArchitecture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4D7970D276CC7020034A35C /* SwiftUI_ContactForm_CleanArchitecture.xcdatamodeld */; };
-		F4D79719276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79718276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests.swift */; };
-		F4D79723276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79722276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.swift */; };
-		F4D79725276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79724276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift */; };
+		F4D79719276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79718276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureTests.swift */; };
+		F4D79723276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79722276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITests.swift */; };
+		F4D79725276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79724276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITestsLaunchTests.swift */; };
 		F4D7975D276CD8570034A35C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4D7975F276CD8570034A35C /* Localizable.strings */; };
 		F4D79764276E1FF90034A35C /* ContactTopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79763276E1FF90034A35C /* ContactTopViewModel.swift */; };
 		F4D79767276E203A0034A35C /* ContactTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79766276E203A0034A35C /* ContactTopView.swift */; };
@@ -44,6 +42,7 @@
 		F4D79780277365C80034A35C /* XCUIElement+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7977F277365C70034A35C /* XCUIElement+Async.swift */; };
 		F4D79782277366070034A35C /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79781277366070034A35C /* String+Localizable.swift */; };
 		F4D7978427736B010034A35C /* ContactFormViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7978327736B010034A35C /* ContactFormViewUITests.swift */; };
+		F5E6A20B641E4D2BFCB08C71 /* Pods_SwiftUI_ContactFormCleanArchitectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9220B0420BD134ACDC91FA52 /* Pods_SwiftUI_ContactFormCleanArchitectureTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,15 +63,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C31023F3EA3F5277D0BC5DC /* Pods-SwiftUI-ContactFormCleanArchitectureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-ContactFormCleanArchitectureTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-ContactFormCleanArchitectureTests/Pods-SwiftUI-ContactFormCleanArchitectureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B8B345BC35467AF0AC9151D /* Pods_SwiftUI_ContactFormCleanArchitecture_SwiftUI_ContactFormCleanArchitectureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_ContactFormCleanArchitecture_SwiftUI_ContactFormCleanArchitectureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		332BB45033342EE8DB278660 /* Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		47C8B19EB1AD0D749B73563F /* Pods-SwiftUI_ContactForm_CleanArchitectureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitectureTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitectureTests/Pods-SwiftUI_ContactForm_CleanArchitectureTests.release.xcconfig"; sourceTree = "<group>"; };
-		6B607E4EDAEE41A23FCEAEE7 /* Pods_SwiftUI_ContactForm_CleanArchitecture_SwiftUI_ContactForm_CleanArchitectureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_ContactForm_CleanArchitecture_SwiftUI_ContactForm_CleanArchitectureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		505B3A336D40038FB4928970 /* Pods_SwiftUI_ContactFormCleanArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_ContactFormCleanArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEA40BF2C64D17ADBEF5270 /* Pods-SwiftUI-ContactFormCleanArchitectureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-ContactFormCleanArchitectureTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-ContactFormCleanArchitectureTests/Pods-SwiftUI-ContactFormCleanArchitectureTests.release.xcconfig"; sourceTree = "<group>"; };
+		642752291401C9172FF61950 /* Pods-SwiftUI-ContactFormCleanArchitecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-ContactFormCleanArchitecture.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-ContactFormCleanArchitecture/Pods-SwiftUI-ContactFormCleanArchitecture.debug.xcconfig"; sourceTree = "<group>"; };
 		717FB61740F53C5E42ACEF44 /* Pods-SwiftUI_ContactForm_CleanArchitectureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitectureTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitectureTests/Pods-SwiftUI_ContactForm_CleanArchitectureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		779A2211480DB9E5080EE6FB /* Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests/Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		896EED1B4722C6250215742C /* Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests/Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9220B0420BD134ACDC91FA52 /* Pods_SwiftUI_ContactFormCleanArchitectureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_ContactFormCleanArchitectureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		927FCE32B1E640A7A6DCDB51 /* Pods-SwiftUI_ContactForm_CleanArchitecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitecture.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture/Pods-SwiftUI_ContactForm_CleanArchitecture.debug.xcconfig"; sourceTree = "<group>"; };
 		9ADA53A272E22A1D0C121981 /* Pods-SwiftUI_ContactForm_CleanArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitecture.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture/Pods-SwiftUI_ContactForm_CleanArchitecture.release.xcconfig"; sourceTree = "<group>"; };
 		BC5C77019FD8697EA9D28CBB /* Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.release.xcconfig"; sourceTree = "<group>"; };
-		CC5AE64AF9CB57FA052F2A5A /* Pods_SwiftUI_ContactForm_CleanArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_ContactForm_CleanArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7B7E6AFDB157E40C3647726 /* Pods_SwiftUI_ContactForm_CleanArchitectureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_ContactForm_CleanArchitectureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13BFC5B24B74A453779F6D0 /* Pods-SwiftUI-ContactFormCleanArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-ContactFormCleanArchitecture.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-ContactFormCleanArchitecture/Pods-SwiftUI-ContactFormCleanArchitecture.release.xcconfig"; sourceTree = "<group>"; };
 		F47C3ECD2778B3DC00CDD87C /* Cuckoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cuckoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47C3ECF2778B4D600CDD87C /* MockTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTest.swift; sourceTree = "<group>"; };
 		F47C3ED32778B5C900CDD87C /* GeneratedMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
@@ -84,17 +89,17 @@
 		F47C3EE82778BF7100CDD87C /* InquiryUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryUseCaseTests.swift; sourceTree = "<group>"; };
 		F47C3EEA2778C0DC00CDD87C /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		F4D796FF276CC7000034A35C /* SwiftUI-ContactFormCleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-ContactFormCleanArchitecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4D79702276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContactForm_CleanArchitectureApp.swift; sourceTree = "<group>"; };
+		F4D79702276CC7000034A35C /* SwiftUI-ContactFormCleanArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI-ContactFormCleanArchitectureApp.swift"; sourceTree = "<group>"; };
 		F4D79704276CC7000034A35C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4D79706276CC7020034A35C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D79709276CC7020034A35C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4D7970B276CC7020034A35C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		F4D7970E276CC7020034A35C /* SwiftUI_ContactForm_CleanArchitecture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_ContactForm_CleanArchitecture.xcdatamodel; sourceTree = "<group>"; };
+		F4D7970E276CC7020034A35C /* SwiftUI-ContactFormCleanArchitecture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "SwiftUI-ContactFormCleanArchitecture.xcdatamodel"; sourceTree = "<group>"; };
 		F4D79714276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-ContactFormCleanArchitectureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4D79718276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContactForm_CleanArchitectureTests.swift; sourceTree = "<group>"; };
+		F4D79718276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI-ContactFormCleanArchitectureTests.swift"; sourceTree = "<group>"; };
 		F4D7971E276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-ContactFormCleanArchitectureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4D79722276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContactForm_CleanArchitectureUITests.swift; sourceTree = "<group>"; };
-		F4D79724276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4D79722276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI-ContactFormCleanArchitectureUITests.swift"; sourceTree = "<group>"; };
+		F4D79724276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI-ContactFormCleanArchitectureUITestsLaunchTests.swift"; sourceTree = "<group>"; };
 		F4D79732276CD04B0034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4D79734276CD0A20034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4D79736276CD0E20034A35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -131,7 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				511FA07D78E6EB610D132152 /* Pods_SwiftUI_ContactForm_CleanArchitecture.framework in Frameworks */,
+				0E32BFE86FA22BE3C8F9753E /* Pods_SwiftUI_ContactFormCleanArchitecture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F47C3ECE2778B3DC00CDD87C /* Cuckoo.framework in Frameworks */,
-				CB6CAAB9E46714EEA95B6B0E /* Pods_SwiftUI_ContactForm_CleanArchitectureTests.framework in Frameworks */,
+				F5E6A20B641E4D2BFCB08C71 /* Pods_SwiftUI_ContactFormCleanArchitectureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D679BCE7043869FE7C6DD7E1 /* Pods_SwiftUI_ContactForm_CleanArchitecture_SwiftUI_ContactForm_CleanArchitectureUITests.framework in Frameworks */,
+				AE4374A86B00EC7A535ED8C3 /* Pods_SwiftUI_ContactFormCleanArchitecture_SwiftUI_ContactFormCleanArchitectureUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,9 +164,9 @@
 			isa = PBXGroup;
 			children = (
 				F47C3ECD2778B3DC00CDD87C /* Cuckoo.framework */,
-				CC5AE64AF9CB57FA052F2A5A /* Pods_SwiftUI_ContactForm_CleanArchitecture.framework */,
-				6B607E4EDAEE41A23FCEAEE7 /* Pods_SwiftUI_ContactForm_CleanArchitecture_SwiftUI_ContactForm_CleanArchitectureUITests.framework */,
-				E7B7E6AFDB157E40C3647726 /* Pods_SwiftUI_ContactForm_CleanArchitectureTests.framework */,
+				505B3A336D40038FB4928970 /* Pods_SwiftUI_ContactFormCleanArchitecture.framework */,
+				2B8B345BC35467AF0AC9151D /* Pods_SwiftUI_ContactFormCleanArchitecture_SwiftUI_ContactFormCleanArchitectureUITests.framework */,
+				9220B0420BD134ACDC91FA52 /* Pods_SwiftUI_ContactFormCleanArchitectureTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -250,9 +255,9 @@
 		F4D796F6276CC7000034A35C = {
 			isa = PBXGroup;
 			children = (
-				F4D79701276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitecture */,
-				F4D79717276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests */,
-				F4D79721276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests */,
+				F4D79701276CC7000034A35C /* SwiftUI-ContactFormCleanArchitecture */,
+				F4D79717276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureTests */,
+				F4D79721276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITests */,
 				F4D79700276CC7000034A35C /* Products */,
 				FA57C76BD4714C874D914A31 /* Pods */,
 				A6431F10876A7308B0D45FA4 /* Frameworks */,
@@ -269,10 +274,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4D79701276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitecture */ = {
+		F4D79701276CC7000034A35C /* SwiftUI-ContactFormCleanArchitecture */ = {
 			isa = PBXGroup;
 			children = (
-				F4D79702276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitectureApp.swift */,
+				F4D79702276CC7000034A35C /* SwiftUI-ContactFormCleanArchitectureApp.swift */,
 				F4D79731276CCF640034A35C /* DataInfrastructure */,
 				F4D79737276CD1220034A35C /* Domain */,
 				F4D79740276CD24B0034A35C /* Manager */,
@@ -281,10 +286,10 @@
 				F4D7974D276CD5E10034A35C /* Utils */,
 				F4D79706276CC7020034A35C /* Assets.xcassets */,
 				F4D7970B276CC7020034A35C /* Persistence.swift */,
-				F4D7970D276CC7020034A35C /* SwiftUI_ContactForm_CleanArchitecture.xcdatamodeld */,
+				F4D7970D276CC7020034A35C /* SwiftUI-ContactFormCleanArchitecture.xcdatamodeld */,
 				F4D79708276CC7020034A35C /* Preview Content */,
 			);
-			path = SwiftUI_ContactForm_CleanArchitecture;
+			path = "SwiftUI-ContactFormCleanArchitecture";
 			sourceTree = "<group>";
 		};
 		F4D79708276CC7020034A35C /* Preview Content */ = {
@@ -295,25 +300,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F4D79717276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests */ = {
+		F4D79717276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureTests */ = {
 			isa = PBXGroup;
 			children = (
 				F47C3EC62778AC7700CDD87C /* Domain */,
 				F47C3ED32778B5C900CDD87C /* GeneratedMocks.swift */,
-				F4D79718276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests.swift */,
+				F4D79718276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureTests.swift */,
 			);
-			path = SwiftUI_ContactForm_CleanArchitectureTests;
+			path = "SwiftUI-ContactFormCleanArchitectureTests";
 			sourceTree = "<group>";
 		};
-		F4D79721276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests */ = {
+		F4D79721276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITests */ = {
 			isa = PBXGroup;
 			children = (
 				F4D7977E277365A10034A35C /* TestUtils */,
 				F4D797692770BF800034A35C /* Views */,
-				F4D79722276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.swift */,
-				F4D79724276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift */,
+				F4D79722276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITests.swift */,
+				F4D79724276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITestsLaunchTests.swift */,
 			);
-			path = SwiftUI_ContactForm_CleanArchitectureUITests;
+			path = "SwiftUI-ContactFormCleanArchitectureUITests";
 			sourceTree = "<group>";
 		};
 		F4D79731276CCF640034A35C /* DataInfrastructure */ = {
@@ -528,6 +533,12 @@
 				BC5C77019FD8697EA9D28CBB /* Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.release.xcconfig */,
 				717FB61740F53C5E42ACEF44 /* Pods-SwiftUI_ContactForm_CleanArchitectureTests.debug.xcconfig */,
 				47C8B19EB1AD0D749B73563F /* Pods-SwiftUI_ContactForm_CleanArchitectureTests.release.xcconfig */,
+				642752291401C9172FF61950 /* Pods-SwiftUI-ContactFormCleanArchitecture.debug.xcconfig */,
+				C13BFC5B24B74A453779F6D0 /* Pods-SwiftUI-ContactFormCleanArchitecture.release.xcconfig */,
+				779A2211480DB9E5080EE6FB /* Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests.debug.xcconfig */,
+				896EED1B4722C6250215742C /* Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests.release.xcconfig */,
+				0C31023F3EA3F5277D0BC5DC /* Pods-SwiftUI-ContactFormCleanArchitectureTests.debug.xcconfig */,
+				5DEA40BF2C64D17ADBEF5270 /* Pods-SwiftUI-ContactFormCleanArchitectureTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -674,15 +685,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture/Pods-SwiftUI_ContactForm_CleanArchitecture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-ContactFormCleanArchitecture/Pods-SwiftUI-ContactFormCleanArchitecture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture/Pods-SwiftUI_ContactForm_CleanArchitecture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-ContactFormCleanArchitecture/Pods-SwiftUI-ContactFormCleanArchitecture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture/Pods-SwiftUI_ContactForm_CleanArchitecture-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-ContactFormCleanArchitecture/Pods-SwiftUI-ContactFormCleanArchitecture-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0F216C6A8E6DE90D46E38717 /* [CP] Check Pods Manifest.lock */ = {
@@ -700,7 +711,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_ContactForm_CleanArchitectureTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-ContactFormCleanArchitectureTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -713,15 +724,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests/Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests/Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests/Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		34D2F743A40099ED8F5910A1 /* [CP] Check Pods Manifest.lock */ = {
@@ -739,7 +750,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -752,15 +763,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitectureTests/Pods-SwiftUI_ContactForm_CleanArchitectureTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-ContactFormCleanArchitectureTests/Pods-SwiftUI-ContactFormCleanArchitectureTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitectureTests/Pods-SwiftUI_ContactForm_CleanArchitectureTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-ContactFormCleanArchitectureTests/Pods-SwiftUI-ContactFormCleanArchitectureTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitectureTests/Pods-SwiftUI_ContactForm_CleanArchitectureTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-ContactFormCleanArchitectureTests/Pods-SwiftUI-ContactFormCleanArchitectureTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9A8449DB6B3A906B4C8A0D65 /* [CP] Check Pods Manifest.lock */ = {
@@ -778,7 +789,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_ContactForm_CleanArchitecture-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-ContactFormCleanArchitecture-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -801,7 +812,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n\n#  RunScript.sh\n#  SwiftUI_ContactForm_CleanArchitecture\n#\n#  Created by Hiroaki-Hirabayashi on 2021/12/26.\n#  \n# Type a script or drag a script file from your workspace to insert its path.\nif [ $ACTION == \"indexbuild\" ]; then\n  echo \"Not running Cuckoo generator during indexing.\"\n  exit 0\nfi\n\n# Skip for preview builds\nif [ \"${ENABLE_PREVIEWS}\" = \"YES\" ]; then\n  echo \"Not running Cuckoo generator during preview builds.\"\n  exit 0\nfi\n\n# テストディレクトリを指定する\nOUTPUT_FILE=\"${PROJECT_DIR}/SwiftUI_ContactForm_CleanArchitectureTests/GeneratedMocks.swift\"\necho \"Generated Mocks File = ${OUTPUT_FILE}\"\n\n モジュールディレクトリを指定する\n INPUT_DIR=\"${PROJECT_DIR}/SwiftUI_ContactForm_CleanArchitecture\"\n echo \"Mocks Input Directory = ${INPUT_DIR}\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n# モックの対象となるprotocolファイルをここに追記していく\nMODULE_NAME=\"SwiftUI_ContactForm_CleanArchitecture\"\n\"${PODS_ROOT}/Cuckoo/run\" generate --testable \"${MODULE_NAME}\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"${INPUT_DIR}/Domain/DomainModel/Repositories/MockTest.swift\" \\\n\"${INPUT_DIR}/Domain/DomainModel/Repositories/Inquiry/InquiryHttpRepository.swift\" \\\n\"${INPUT_DIR}/Domain/Application/UseCases/Inquiry/InquiryUseCase.swift\"\n";
+			shellScript = "#!/bin/sh\n\n#  RunScript.sh\n#  SwiftUI_ContactForm_CleanArchitecture\n#\n#  Created by Hiroaki-Hirabayashi on 2021/12/26.\n#  \n# Type a script or drag a script file from your workspace to insert its path.\nif [ $ACTION == \"indexbuild\" ]; then\n  echo \"Not running Cuckoo generator during indexing.\"\n  exit 0\nfi\n\n# Skip for preview builds\nif [ \"${ENABLE_PREVIEWS}\" = \"YES\" ]; then\n  echo \"Not running Cuckoo generator during preview builds.\"\n  exit 0\nfi\n\n# テストディレクトリを指定する\nOUTPUT_FILE=\"${PROJECT_DIR}/SwiftUI-ContactFormCleanArchitectureTests/GeneratedMocks.swift\"\necho \"Generated Mocks File = ${OUTPUT_FILE}\"\n\n モジュールディレクトリを指定する\n INPUT_DIR=\"${PROJECT_DIR}/SwiftUI-ContactFormCleanArchitecture\"\n echo \"Mocks Input Directory = ${INPUT_DIR}\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n# モックの対象となるprotocolファイルをここに追記していく\nMODULE_NAME=\"SwiftUI-ContactFormCleanArchitecture\"\n\"${PODS_ROOT}/Cuckoo/run\" generate --testable \"${MODULE_NAME}\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"${INPUT_DIR}/Domain/DomainModel/Repositories/MockTest.swift\" \\\n\"${INPUT_DIR}/Domain/DomainModel/Repositories/Inquiry/InquiryHttpRepository.swift\" \\\n\"${INPUT_DIR}/Domain/Application/UseCases/Inquiry/InquiryUseCase.swift\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -817,11 +828,10 @@
 				F4D7976E2770C89C0034A35C /* Bundle+Locator.swift in Sources */,
 				F4D7977D27735FE60034A35C /* Color.swift in Sources */,
 				F4D7970C276CC7020034A35C /* Persistence.swift in Sources */,
-				F4D7970F276CC7020034A35C /* SwiftUI_ContactForm_CleanArchitecture.xcdatamodeld in Sources */,
 				F47C3EE42778BBDE00CDD87C /* InquiryUseCaseImpl.swift in Sources */,
 				F4D79705276CC7000034A35C /* ContentView.swift in Sources */,
 				F47C3EDA2778B84300CDD87C /* Inquiry.swift in Sources */,
-				F4D79703276CC7000034A35C /* SwiftUI_ContactForm_CleanArchitectureApp.swift in Sources */,
+				F4D79703276CC7000034A35C /* SwiftUI-ContactFormCleanArchitectureApp.swift in Sources */,
 				F47C3EEB2778C0DC00CDD87C /* DIContainer.swift in Sources */,
 				F4D7977727735C1C0034A35C /* ContactFormViewModel.swift in Sources */,
 				F4D7977B27735EB40034A35C /* PlaceHolderTextEditor.swift in Sources */,
@@ -838,7 +848,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F47C3EE92778BF7100CDD87C /* InquiryUseCaseTests.swift in Sources */,
-				F4D79719276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureTests.swift in Sources */,
+				F4D79719276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureTests.swift in Sources */,
 				F47C3ED42778B5C900CDD87C /* GeneratedMocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -850,9 +860,9 @@
 				F4D7976C2770BFDD0034A35C /* ContactTopViewUITests.swift in Sources */,
 				F4D7978427736B010034A35C /* ContactFormViewUITests.swift in Sources */,
 				F4D79782277366070034A35C /* String+Localizable.swift in Sources */,
-				F4D79725276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITestsLaunchTests.swift in Sources */,
+				F4D79725276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITestsLaunchTests.swift in Sources */,
 				F4D79780277365C80034A35C /* XCUIElement+Async.swift in Sources */,
-				F4D79723276CC7030034A35C /* SwiftUI_ContactForm_CleanArchitectureUITests.swift in Sources */,
+				F4D79723276CC7030034A35C /* SwiftUI-ContactFormCleanArchitectureUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1002,13 +1012,13 @@
 		};
 		F4D79729276CC7030034A35C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 927FCE32B1E640A7A6DCDB51 /* Pods-SwiftUI_ContactForm_CleanArchitecture.debug.xcconfig */;
+			baseConfigurationReference = 642752291401C9172FF61950 /* Pods-SwiftUI-ContactFormCleanArchitecture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_ContactForm_CleanArchitecture/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-ContactFormCleanArchitecture/Preview Content\"";
 				DEVELOPMENT_TEAM = S3PW95J64Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1032,13 +1042,13 @@
 		};
 		F4D7972A276CC7030034A35C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9ADA53A272E22A1D0C121981 /* Pods-SwiftUI_ContactForm_CleanArchitecture.release.xcconfig */;
+			baseConfigurationReference = C13BFC5B24B74A453779F6D0 /* Pods-SwiftUI-ContactFormCleanArchitecture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_ContactForm_CleanArchitecture/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-ContactFormCleanArchitecture/Preview Content\"";
 				DEVELOPMENT_TEAM = S3PW95J64Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1062,7 +1072,7 @@
 		};
 		F4D7972C276CC7030034A35C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 717FB61740F53C5E42ACEF44 /* Pods-SwiftUI_ContactForm_CleanArchitectureTests.debug.xcconfig */;
+			baseConfigurationReference = 0C31023F3EA3F5277D0BC5DC /* Pods-SwiftUI-ContactFormCleanArchitectureTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1088,7 +1098,7 @@
 		};
 		F4D7972D276CC7030034A35C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47C8B19EB1AD0D749B73563F /* Pods-SwiftUI_ContactForm_CleanArchitectureTests.release.xcconfig */;
+			baseConfigurationReference = 5DEA40BF2C64D17ADBEF5270 /* Pods-SwiftUI-ContactFormCleanArchitectureTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1114,7 +1124,7 @@
 		};
 		F4D7972F276CC7030034A35C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 332BB45033342EE8DB278660 /* Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.debug.xcconfig */;
+			baseConfigurationReference = 779A2211480DB9E5080EE6FB /* Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1138,7 +1148,7 @@
 		};
 		F4D79730276CC7030034A35C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC5C77019FD8697EA9D28CBB /* Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.release.xcconfig */;
+			baseConfigurationReference = 896EED1B4722C6250215742C /* Pods-SwiftUI-ContactFormCleanArchitecture-SwiftUI-ContactFormCleanArchitectureUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1202,13 +1212,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F4D7970D276CC7020034A35C /* SwiftUI_ContactForm_CleanArchitecture.xcdatamodeld */ = {
+		F4D7970D276CC7020034A35C /* SwiftUI-ContactFormCleanArchitecture.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F4D7970E276CC7020034A35C /* SwiftUI_ContactForm_CleanArchitecture.xcdatamodel */,
+				F4D7970E276CC7020034A35C /* SwiftUI-ContactFormCleanArchitecture.xcdatamodel */,
 			);
-			currentVersion = F4D7970E276CC7020034A35C /* SwiftUI_ContactForm_CleanArchitecture.xcdatamodel */;
-			path = SwiftUI_ContactForm_CleanArchitecture.xcdatamodeld;
+			currentVersion = F4D7970E276CC7020034A35C /* SwiftUI-ContactFormCleanArchitecture.xcdatamodel */;
+			path = "SwiftUI-ContactFormCleanArchitecture.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

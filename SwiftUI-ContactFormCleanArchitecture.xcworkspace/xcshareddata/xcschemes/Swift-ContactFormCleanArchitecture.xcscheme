@@ -12,16 +12,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F4D7971D276CC7030034A35C"
-               BuildableName = "SwiftUI_ContactForm_CleanArchitectureUITests.xctest"
-               BlueprintName = "SwiftUI-ContactFormCleanArchitectureUITests"
-               ReferencedContainer = "container:SwiftUI-ContactFormCleanArchitecture.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

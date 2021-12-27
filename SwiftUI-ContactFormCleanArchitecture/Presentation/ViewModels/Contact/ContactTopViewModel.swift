@@ -14,3 +14,11 @@ final class ContactTopViewModel: ObservableObject {
         foundMessage = "ContactTopView_FoundAnswered_Message".localizedString
     }
 }
+
+
+
+
+
+
+
+
