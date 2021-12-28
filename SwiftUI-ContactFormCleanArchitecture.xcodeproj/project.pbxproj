@@ -23,6 +23,8 @@
 		F47C3EF42779E48100CDD87C /* AnsweredInquiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3EF32779E48100CDD87C /* AnsweredInquiry.swift */; };
 		F47C3EF62779E7E200CDD87C /* InquiryViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3EF52779E7E200CDD87C /* InquiryViewModelMapper.swift */; };
 		F47C3EF82779E86300CDD87C /* ViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3EF72779E86300CDD87C /* ViewModelMapper.swift */; };
+		F47C3EFB277B607100CDD87C /* Encodable+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3EFA277B607100CDD87C /* Encodable+Dictionary.swift */; };
+		F47C3EFD277B60D600CDD87C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3EFC277B60D600CDD87C /* APIClient.swift */; };
 		F4D79703276CC7000034A35C /* SwiftUI-ContactFormCleanArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79702276CC7000034A35C /* SwiftUI-ContactFormCleanArchitectureApp.swift */; };
 		F4D79705276CC7000034A35C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79704276CC7000034A35C /* ContentView.swift */; };
 		F4D79707276CC7020034A35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D79706276CC7020034A35C /* Assets.xcassets */; };
@@ -96,6 +98,8 @@
 		F47C3EF52779E7E200CDD87C /* InquiryViewModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryViewModelMapper.swift; sourceTree = "<group>"; };
 		F47C3EF72779E86300CDD87C /* ViewModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelMapper.swift; sourceTree = "<group>"; };
 		F47C3EF92779E95600CDD87C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F47C3EFA277B607100CDD87C /* Encodable+Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Dictionary.swift"; sourceTree = "<group>"; };
+		F47C3EFC277B60D600CDD87C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		F4D796FF276CC7000034A35C /* SwiftUI-ContactFormCleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-ContactFormCleanArchitecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D79702276CC7000034A35C /* SwiftUI-ContactFormCleanArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI-ContactFormCleanArchitectureApp.swift"; sourceTree = "<group>"; };
 		F4D79704276CC7000034A35C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -504,6 +508,8 @@
 			isa = PBXGroup;
 			children = (
 				F4D7974E276CD69C0034A35C /* README.md */,
+				F47C3EFA277B607100CDD87C /* Encodable+Dictionary.swift */,
+				F47C3EFC277B60D600CDD87C /* APIClient.swift */,
 				F4D7976D2770C89B0034A35C /* Bundle+Locator.swift */,
 				F4D7976F2770C93C0034A35C /* String+Localizable.swift */,
 				F4D7977A27735EB40034A35C /* PlaceHolderTextEditor.swift */,
@@ -858,12 +864,14 @@
 				F47C3ED02778B4D600CDD87C /* MockTest.swift in Sources */,
 				F4D797722770CC8D0034A35C /* Sample.swift in Sources */,
 				F47C3EF82779E86300CDD87C /* ViewModelMapper.swift in Sources */,
+				F47C3EFB277B607100CDD87C /* Encodable+Dictionary.swift in Sources */,
 				F4D79767276E203A0034A35C /* ContactTopView.swift in Sources */,
 				F4D7976E2770C89C0034A35C /* Bundle+Locator.swift in Sources */,
 				F4D7977D27735FE60034A35C /* Color.swift in Sources */,
 				F47C3EF42779E48100CDD87C /* AnsweredInquiry.swift in Sources */,
 				F4D7970C276CC7020034A35C /* Persistence.swift in Sources */,
 				F47C3EE42778BBDE00CDD87C /* InquiryUseCaseImpl.swift in Sources */,
+				F47C3EFD277B60D600CDD87C /* APIClient.swift in Sources */,
 				F4D79705276CC7000034A35C /* ContentView.swift in Sources */,
 				F47C3EDA2778B84300CDD87C /* Inquiry.swift in Sources */,
 				F4D79703276CC7000034A35C /* SwiftUI-ContactFormCleanArchitectureApp.swift in Sources */,
