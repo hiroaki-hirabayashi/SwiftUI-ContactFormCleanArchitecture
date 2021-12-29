@@ -7,8 +7,15 @@
 
 import Foundation
 
-final class InquiryViewModelMapper: ViewModelMapper<Inquiry, String>  {
-    override func viewModelToDomain<D, V>(model: V) -> D {
-        return Inquiry(description: model as! String) as! D
+final class InquiryViewModelMapper: ViewModelMapper {
+    typealias DomainType = Inquiry
+    typealias ViewModelType = String
+    
+    func viewModelToDomain(model: String) -> Inquiry {
+        Inquiry(description: model)
+    }
+    
+    func domainToViewModel(domain: Inquiry) -> String {
+        domain.description
     }
 }
