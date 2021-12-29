@@ -20,6 +20,16 @@ final class DIContainer {
         initImpl()
 #endif
     }
+    
+#if DEBUG
+    func reset() {
+#if MOCK
+        initMock()
+#else
+        initImpl()
+#endif
+    }
+#endif
     //    /// デバッグ環境の注入
     private func initMock() {
         //        // Repository
@@ -38,6 +48,11 @@ final class DIContainer {
                     r.resolve(InquiryHttpRepositoryProtocol.self)!
             )
         }
+    }
+    
+    /// InquiryHttpRepositoryProtocolの取得
+    func getInquiryHttpRepository() -> InquiryHttpRepositoryProtocol {
+        return container.resolve(InquiryHttpRepositoryProtocol.self)!
     }
     
     func setInquiryHttpRepository(repository: InquiryHttpRepositoryProtocol) {

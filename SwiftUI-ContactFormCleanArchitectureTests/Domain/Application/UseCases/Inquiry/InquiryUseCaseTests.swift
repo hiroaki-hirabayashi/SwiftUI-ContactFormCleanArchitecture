@@ -14,6 +14,7 @@ class InquiryUseCaseTests: XCTestCase {
     }
     
     override func tearDownWithError() throws {
+        DIContainer.shared.reset()
     }
     
     // お問い合わせメッセージ
@@ -154,5 +155,4 @@ class InquiryUseCaseTests: XCTestCase {
         }
         wait(for: [exp], timeout: 5.0)
     }
-    
 }
