@@ -1,3 +1,3 @@
-# SwiftUI_ContactForm_CleanArchitecture
+# SwiftUI-ContactFormCleanArchitecture
 
 クリーンアーキテクチャとテストコードのサンプル
