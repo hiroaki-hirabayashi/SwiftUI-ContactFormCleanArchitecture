@@ -41,6 +41,7 @@ struct ContactTopView: View {
                 viewModel.getFoundAnsweredInquiry()
             }
         }
+        .navigationBarBackButtonHidden(true)
     }
     
     func showAlert() -> Alert {

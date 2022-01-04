@@ -29,6 +29,9 @@
 		F47C3F01277CBFCD00CDD87C /* InquiryFormEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3F00277CBFCD00CDD87C /* InquiryFormEntity.swift */; };
 		F47C3F03277CBFF100CDD87C /* AcceptInquiryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3F02277CBFF100CDD87C /* AcceptInquiryEntity.swift */; };
 		F47C3F09277CD08700CDD87C /* InquiryHttpRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3F08277CD08700CDD87C /* InquiryHttpRepositoryTests.swift */; };
+		F4A8072A2784633F00D3971F /* HelpListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A807292784633F00D3971F /* HelpListView.swift */; };
+		F4A8072C2784663D00D3971F /* StretchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8072B2784663D00D3971F /* StretchView.swift */; };
+		F4A8072E2784671E00D3971F /* ReservationGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8072D2784671E00D3971F /* ReservationGuide.swift */; };
 		F4D79703276CC7000034A35C /* SwiftUI-ContactFormCleanArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79702276CC7000034A35C /* SwiftUI-ContactFormCleanArchitectureApp.swift */; };
 		F4D79705276CC7000034A35C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79704276CC7000034A35C /* ContentView.swift */; };
 		F4D79707276CC7020034A35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D79706276CC7020034A35C /* Assets.xcassets */; };
@@ -108,6 +111,9 @@
 		F47C3F00277CBFCD00CDD87C /* InquiryFormEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryFormEntity.swift; sourceTree = "<group>"; };
 		F47C3F02277CBFF100CDD87C /* AcceptInquiryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptInquiryEntity.swift; sourceTree = "<group>"; };
 		F47C3F08277CD08700CDD87C /* InquiryHttpRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryHttpRepositoryTests.swift; sourceTree = "<group>"; };
+		F4A807292784633F00D3971F /* HelpListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpListView.swift; sourceTree = "<group>"; };
+		F4A8072B2784663D00D3971F /* StretchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchView.swift; sourceTree = "<group>"; };
+		F4A8072D2784671E00D3971F /* ReservationGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationGuide.swift; sourceTree = "<group>"; };
 		F4D796FF276CC7000034A35C /* SwiftUI-ContactFormCleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-ContactFormCleanArchitecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D79702276CC7000034A35C /* SwiftUI-ContactFormCleanArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI-ContactFormCleanArchitectureApp.swift"; sourceTree = "<group>"; };
 		F4D79704276CC7000034A35C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -327,6 +333,16 @@
 			path = Inquiry;
 			sourceTree = "<group>";
 		};
+		F4A80728278462EB00D3971F /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				F4A807292784633F00D3971F /* HelpListView.swift */,
+				F4A8072B2784663D00D3971F /* StretchView.swift */,
+				F4A8072D2784671E00D3971F /* ReservationGuide.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
 		F4D796F6276CC7000034A35C = {
 			isa = PBXGroup;
 			children = (
@@ -504,6 +520,7 @@
 				F4D79704276CC7000034A35C /* ContentView.swift */,
 				F4D797712770CC8D0034A35C /* Sample.swift */,
 				F4D79765276E20170034A35C /* Contact */,
+				F4A80728278462EB00D3971F /* Help */,
 				F4D7974A276CD5050034A35C /* README.md */,
 			);
 			path = Views;
@@ -917,6 +934,7 @@
 				F47C3EF42779E48100CDD87C /* AnsweredInquiry.swift in Sources */,
 				F4D7970C276CC7020034A35C /* Persistence.swift in Sources */,
 				F47C3EE42778BBDE00CDD87C /* InquiryUseCaseImpl.swift in Sources */,
+				F4A8072E2784671E00D3971F /* ReservationGuide.swift in Sources */,
 				F47C3EFD277B60D600CDD87C /* APIClient.swift in Sources */,
 				F4D79705276CC7000034A35C /* ContentView.swift in Sources */,
 				F47C3EDA2778B84300CDD87C /* Inquiry.swift in Sources */,
@@ -929,7 +947,9 @@
 				F4D797702770C93C0034A35C /* String+Localizable.swift in Sources */,
 				F47C3EF62779E7E200CDD87C /* InquiryViewModelMapper.swift in Sources */,
 				F47C3EDF2778B9F600CDD87C /* InquiryHttpConnectionImp.swift in Sources */,
+				F4A8072A2784633F00D3971F /* HelpListView.swift in Sources */,
 				F4D7977427735B190034A35C /* ContactFormView.swift in Sources */,
+				F4A8072C2784663D00D3971F /* StretchView.swift in Sources */,
 				F47C3EE22778BBB000CDD87C /* InquiryUseCaseProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
