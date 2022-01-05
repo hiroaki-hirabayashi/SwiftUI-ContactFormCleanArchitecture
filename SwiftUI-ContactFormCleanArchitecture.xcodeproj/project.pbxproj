@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E32BFE86FA22BE3C8F9753E /* Pods_SwiftUI_ContactFormCleanArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505B3A336D40038FB4928970 /* Pods_SwiftUI_ContactFormCleanArchitecture.framework */; };
 		AE4374A86B00EC7A535ED8C3 /* Pods_SwiftUI_ContactFormCleanArchitecture_SwiftUI_ContactFormCleanArchitectureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8B345BC35467AF0AC9151D /* Pods_SwiftUI_ContactFormCleanArchitecture_SwiftUI_ContactFormCleanArchitectureUITests.framework */; };
+		F462A81C2785E1A500A0CEC6 /* CombineSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A81B2785E1A500A0CEC6 /* CombineSample.swift */; };
 		F47C3ECE2778B3DC00CDD87C /* Cuckoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47C3ECD2778B3DC00CDD87C /* Cuckoo.framework */; };
 		F47C3ED02778B4D600CDD87C /* MockTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3ECF2778B4D600CDD87C /* MockTest.swift */; };
 		F47C3ED42778B5C900CDD87C /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3ED32778B5C900CDD87C /* GeneratedMocks.swift */; };
@@ -90,6 +91,7 @@
 		9ADA53A272E22A1D0C121981 /* Pods-SwiftUI_ContactForm_CleanArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitecture.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture/Pods-SwiftUI_ContactForm_CleanArchitecture.release.xcconfig"; sourceTree = "<group>"; };
 		BC5C77019FD8697EA9D28CBB /* Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests/Pods-SwiftUI_ContactForm_CleanArchitecture-SwiftUI_ContactForm_CleanArchitectureUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C13BFC5B24B74A453779F6D0 /* Pods-SwiftUI-ContactFormCleanArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-ContactFormCleanArchitecture.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-ContactFormCleanArchitecture/Pods-SwiftUI-ContactFormCleanArchitecture.release.xcconfig"; sourceTree = "<group>"; };
+		F462A81B2785E1A500A0CEC6 /* CombineSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSample.swift; sourceTree = "<group>"; };
 		F47C3ECD2778B3DC00CDD87C /* Cuckoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cuckoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47C3ECF2778B4D600CDD87C /* MockTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTest.swift; sourceTree = "<group>"; };
 		F47C3ED32778B5C900CDD87C /* GeneratedMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
@@ -193,6 +195,14 @@
 				9220B0420BD134ACDC91FA52 /* Pods_SwiftUI_ContactFormCleanArchitectureTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F462A81A2785E17300A0CEC6 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				F462A81B2785E1A500A0CEC6 /* CombineSample.swift */,
+			);
+			path = Sample;
 			sourceTree = "<group>";
 		};
 		F47C3EC62778AC7700CDD87C /* Domain */ = {
@@ -519,6 +529,7 @@
 			children = (
 				F4D79704276CC7000034A35C /* ContentView.swift */,
 				F4D797712770CC8D0034A35C /* Sample.swift */,
+				F462A81A2785E17300A0CEC6 /* Sample */,
 				F4D79765276E20170034A35C /* Contact */,
 				F4A80728278462EB00D3971F /* Help */,
 				F4D7974A276CD5050034A35C /* README.md */,
@@ -933,6 +944,7 @@
 				F4D7977D27735FE60034A35C /* Color.swift in Sources */,
 				F47C3EF42779E48100CDD87C /* AnsweredInquiry.swift in Sources */,
 				F4D7970C276CC7020034A35C /* Persistence.swift in Sources */,
+				F462A81C2785E1A500A0CEC6 /* CombineSample.swift in Sources */,
 				F47C3EE42778BBDE00CDD87C /* InquiryUseCaseImpl.swift in Sources */,
 				F4A8072E2784671E00D3971F /* ReservationGuide.swift in Sources */,
 				F47C3EFD277B60D600CDD87C /* APIClient.swift in Sources */,

@@ -1,4 +1,4 @@
-// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/DataInfrastructure/Connection/Http/Inquiry/InquiryHttpConnectionImp.swift at 2022-01-04 12:21:52 +0000
+// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/DataInfrastructure/Connection/Http/Inquiry/InquiryHttpConnectionImp.swift at 2022-01-05 14:45:09 +0000
 
 //
 //  InquiryHttpConnectionImp.swift
@@ -104,7 +104,7 @@ import Foundation
 }
 
 
-// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/Application/UseCases/Inquiry/InquiryUseCaseProtocol.swift at 2022-01-04 12:21:52 +0000
+// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/Application/UseCases/Inquiry/InquiryUseCaseProtocol.swift at 2022-01-05 14:45:09 +0000
 
 //
 //  InquiryUseCaseProtocol.swift
@@ -239,7 +239,7 @@ import Foundation
 }
 
 
-// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/DomainModel/Repositories/Inquiry/InquiryHttpRepository.swift at 2022-01-04 12:21:52 +0000
+// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/DomainModel/Repositories/Inquiry/InquiryHttpRepository.swift at 2022-01-05 14:45:09 +0000
 
 //
 //  InquiryHttpRepository.swift
@@ -374,7 +374,7 @@ import Foundation
 }
 
 
-// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/DomainModel/Repositories/MockTest.swift at 2022-01-04 12:21:52 +0000
+// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/DomainModel/Repositories/MockTest.swift at 2022-01-05 14:45:09 +0000
 
 //
 //  MockTest.swift

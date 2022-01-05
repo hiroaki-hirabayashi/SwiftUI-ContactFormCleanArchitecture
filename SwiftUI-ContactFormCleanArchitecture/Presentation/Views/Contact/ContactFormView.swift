@@ -10,8 +10,9 @@ import SwiftUI
 struct ContactFormView: View {
     @Environment(\.presentationMode) var presentationMode
     @Binding var needShowAlert: Bool
+    @State var errorAlert = false
     @ObservedObject var viewModel = ContactFormViewModel()
-
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -22,10 +23,10 @@ struct ContactFormView: View {
                     Text("ContactFormView_GuideText".localizedString)
                         .font(Font.system(size: 16))
                         .frame(width: 327, height: 42)
-
+                    
                     Spacer()
                         .frame(height: 24)
-
+                    
                     HStack {
                         Text("ContactFormView_ContentsText".localizedString)
                             .font(Font.system(size: 13))
@@ -34,17 +35,17 @@ struct ContactFormView: View {
                         Spacer()
                             .frame(width: 5)
                     }
-
+                    
                     Spacer()
                         .frame(height: 8)
-
+                    
                     PlaceHolderTextEditor(
                         placeholderText: "ContactFormView_ContentsTextPlaceholder"
                             .localizedString,
                         text: $viewModel.text
                     )
-                    .background(Color.white)
-
+                        .background(Color.white)
+                    
                     Spacer()
                 }
                 .onAppear {
@@ -65,7 +66,7 @@ struct ContactFormView: View {
                         }
                         .accessibilityIdentifier("ContactFormView_CloseButton")
                     }
-
+                    
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button(action: {
                             self.needShowAlert = true
@@ -74,8 +75,9 @@ struct ContactFormView: View {
                             Text("ContactFormView_SendButton".localizedString)
                                 .font(Font.system(size: 17))
                                 .bold()
-                                .foregroundColor(Color.viewButtton)
+                                .foregroundColor(viewModel.toValidation ? .gray : Color.viewButtton)
                         }
+                        .disabled(viewModel.toValidation)
                         .accessibilityIdentifier("ContactFormView_SendButton")
                     }
                 }
