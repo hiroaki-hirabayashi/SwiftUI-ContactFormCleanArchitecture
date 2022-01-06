@@ -25,9 +25,8 @@ final class ContactFormViewModel: ObservableObject {
         $text
             .combineLatest($text)
             .map {
-                let inputText = $0.0
+                let inputText = $0.0.trimmingCharacters(in: .whitespacesAndNewlines)
                 guard inputText.isEmpty || inputText.count >= 4001 else { return false }
-                
                 return true
             }
             .assign(to: \.toValidation, on: self)

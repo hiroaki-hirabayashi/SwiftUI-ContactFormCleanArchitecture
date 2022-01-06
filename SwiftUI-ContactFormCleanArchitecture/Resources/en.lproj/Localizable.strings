@@ -6,15 +6,22 @@
   
 */
 "Button_Title" = "こんにちは";
-"ContactFormView_BarTitle" = "お問い合わせ";
 "ContactTopView_UseContactForm" = "お問合せフォームを利用する";
 "ContactTopView_BarTitle" = "お問い合わせ";
 "ContactTopView_FoundAnswered_Message" = "回答がありました";
-"ContactSendAlert_Title" = "送信完了";
-"ContactSendAlert_Message" = "お問合せフォームの送信が完了しました";
+"ContactTopView_NotFoundAnswered_Message" = "回答済みの問い合わせはありません";
+
+"ContactFormView_BarTitle" = "お問い合わせ";
 "ContactFormView_Cancel" = "キャンセル";
 "ContactFormView_SendButton" = "送信";
 "ContactFormView_GuideText" = "このアプリへのご意見・ご要望をお聞かせください";
 "ContactFormView_ContentsText" = "内容(必須)";
 "ContactFormView_ContentsTextPlaceholder" = "入力してください";
+
+"ContactSendAlert_Title" = "送信完了";
+"ContactSendAlert_Message" = "お問合せフォームの送信が完了しました";
 "AlertButton_OK" = "OK";
+"ContactSendErrorAlert_Title" = "送信出来ませんでした";
+"ContactSendErrorAlert_Message" = "通信エラー";
+"ErrorAlertButton_OK" = "OK";
+

@@ -1,4 +1,4 @@
-// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/DataInfrastructure/Connection/Http/Inquiry/InquiryHttpConnectionImp.swift at 2022-01-05 14:45:09 +0000
+// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/DataInfrastructure/Connection/Http/Inquiry/InquiryHttpConnectionImp.swift at 2022-01-06 16:54:59 +0000
 
 //
 //  InquiryHttpConnectionImp.swift
@@ -13,98 +13,7 @@ import Cuckoo
 import Alamofire
 import Foundation
 
-
- class MockSendInquiryRequest: SendInquiryRequest, Cuckoo.ClassMock {
-    
-     typealias MocksType = SendInquiryRequest
-    
-     typealias Stubbing = __StubbingProxy_SendInquiryRequest
-     typealias Verification = __VerificationProxy_SendInquiryRequest
-
-     let cuckoo_manager = Cuckoo.MockManager.preconfiguredManager ?? Cuckoo.MockManager(hasParent: true)
-
-    
-    private var __defaultImplStub: SendInquiryRequest?
-
-     func enableDefaultImplementation(_ stub: SendInquiryRequest) {
-        __defaultImplStub = stub
-        cuckoo_manager.enableDefaultStubImplementation()
-    }
-    
-
-    
-
-    
-
-    
-    
-    
-     override func request(url: String, httpMethod: HTTPMethod, entity: InquiryFormEntity, success: @escaping (AcceptInquiryEntity) -> Void, failure: @escaping () -> Void)  {
-        
-    return cuckoo_manager.call("request(url: String, httpMethod: HTTPMethod, entity: InquiryFormEntity, success: @escaping (AcceptInquiryEntity) -> Void, failure: @escaping () -> Void)",
-            parameters: (url, httpMethod, entity, success, failure),
-            escapingParameters: (url, httpMethod, entity, success, failure),
-            superclassCall:
-                
-                super.request(url: url, httpMethod: httpMethod, entity: entity, success: success, failure: failure)
-                ,
-            defaultCall: __defaultImplStub!.request(url: url, httpMethod: httpMethod, entity: entity, success: success, failure: failure))
-        
-    }
-    
-
-	 struct __StubbingProxy_SendInquiryRequest: Cuckoo.StubbingProxy {
-	    private let cuckoo_manager: Cuckoo.MockManager
-	
-	     init(manager: Cuckoo.MockManager) {
-	        self.cuckoo_manager = manager
-	    }
-	    
-	    
-	    func request<M1: Cuckoo.Matchable, M2: Cuckoo.Matchable, M3: Cuckoo.Matchable, M4: Cuckoo.Matchable, M5: Cuckoo.Matchable>(url: M1, httpMethod: M2, entity: M3, success: M4, failure: M5) -> Cuckoo.ClassStubNoReturnFunction<(String, HTTPMethod, InquiryFormEntity, (AcceptInquiryEntity) -> Void, () -> Void)> where M1.MatchedType == String, M2.MatchedType == HTTPMethod, M3.MatchedType == InquiryFormEntity, M4.MatchedType == (AcceptInquiryEntity) -> Void, M5.MatchedType == () -> Void {
-	        let matchers: [Cuckoo.ParameterMatcher<(String, HTTPMethod, InquiryFormEntity, (AcceptInquiryEntity) -> Void, () -> Void)>] = [wrap(matchable: url) { $0.0 }, wrap(matchable: httpMethod) { $0.1 }, wrap(matchable: entity) { $0.2 }, wrap(matchable: success) { $0.3 }, wrap(matchable: failure) { $0.4 }]
-	        return .init(stub: cuckoo_manager.createStub(for: MockSendInquiryRequest.self, method: "request(url: String, httpMethod: HTTPMethod, entity: InquiryFormEntity, success: @escaping (AcceptInquiryEntity) -> Void, failure: @escaping () -> Void)", parameterMatchers: matchers))
-	    }
-	    
-	}
-
-	 struct __VerificationProxy_SendInquiryRequest: Cuckoo.VerificationProxy {
-	    private let cuckoo_manager: Cuckoo.MockManager
-	    private let callMatcher: Cuckoo.CallMatcher
-	    private let sourceLocation: Cuckoo.SourceLocation
-	
-	     init(manager: Cuckoo.MockManager, callMatcher: Cuckoo.CallMatcher, sourceLocation: Cuckoo.SourceLocation) {
-	        self.cuckoo_manager = manager
-	        self.callMatcher = callMatcher
-	        self.sourceLocation = sourceLocation
-	    }
-	
-	    
-	
-	    
-	    @discardableResult
-	    func request<M1: Cuckoo.Matchable, M2: Cuckoo.Matchable, M3: Cuckoo.Matchable, M4: Cuckoo.Matchable, M5: Cuckoo.Matchable>(url: M1, httpMethod: M2, entity: M3, success: M4, failure: M5) -> Cuckoo.__DoNotUse<(String, HTTPMethod, InquiryFormEntity, (AcceptInquiryEntity) -> Void, () -> Void), Void> where M1.MatchedType == String, M2.MatchedType == HTTPMethod, M3.MatchedType == InquiryFormEntity, M4.MatchedType == (AcceptInquiryEntity) -> Void, M5.MatchedType == () -> Void {
-	        let matchers: [Cuckoo.ParameterMatcher<(String, HTTPMethod, InquiryFormEntity, (AcceptInquiryEntity) -> Void, () -> Void)>] = [wrap(matchable: url) { $0.0 }, wrap(matchable: httpMethod) { $0.1 }, wrap(matchable: entity) { $0.2 }, wrap(matchable: success) { $0.3 }, wrap(matchable: failure) { $0.4 }]
-	        return cuckoo_manager.verify("request(url: String, httpMethod: HTTPMethod, entity: InquiryFormEntity, success: @escaping (AcceptInquiryEntity) -> Void, failure: @escaping () -> Void)", callMatcher: callMatcher, parameterMatchers: matchers, sourceLocation: sourceLocation)
-	    }
-	    
-	}
-}
-
- class SendInquiryRequestStub: SendInquiryRequest {
-    
-
-    
-
-    
-     override func request(url: String, httpMethod: HTTPMethod, entity: InquiryFormEntity, success: @escaping (AcceptInquiryEntity) -> Void, failure: @escaping () -> Void)   {
-        return DefaultValueRegistry.defaultValue(for: (Void).self)
-    }
-    
-}
-
-
-// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/Application/UseCases/Inquiry/InquiryUseCaseProtocol.swift at 2022-01-05 14:45:09 +0000
+// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/Application/UseCases/Inquiry/InquiryUseCaseProtocol.swift at 2022-01-06 16:54:59 +0000
 
 //
 //  InquiryUseCaseProtocol.swift
@@ -239,7 +148,7 @@ import Foundation
 }
 
 
-// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/DomainModel/Repositories/Inquiry/InquiryHttpRepository.swift at 2022-01-05 14:45:09 +0000
+// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/DomainModel/Repositories/Inquiry/InquiryHttpRepository.swift at 2022-01-06 16:54:59 +0000
 
 //
 //  InquiryHttpRepository.swift
@@ -374,7 +283,7 @@ import Foundation
 }
 
 
-// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/DomainModel/Repositories/MockTest.swift at 2022-01-05 14:45:09 +0000
+// MARK: - Mocks generated from file: SwiftUI-ContactFormCleanArchitecture/Domain/DomainModel/Repositories/MockTest.swift at 2022-01-06 16:54:59 +0000
 
 //
 //  MockTest.swift

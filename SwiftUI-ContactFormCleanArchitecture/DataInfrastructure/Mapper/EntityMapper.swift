@@ -5,10 +5,19 @@
 //  Created by Hiroaki-Hirabayashi on 2021/12/30.
 //
 
-protocol EntityMapper {
-    associatedtype DomainType
+import Alamofire
+
+protocol EntityMapper: EntityMapperBase {
+    static func domainToRequest(domain: DomainModel) -> RequestType
+    func entityToDomain(entity: EntityType) -> DomainModel
+}
+
+protocol EntityMapperBase {
     associatedtype EntityType: Codable
-    
-    func domainToEntity(domain: DomainType) -> EntityType
-    func entityToDomain(entity: EntityType) -> DomainType
+    associatedtype RequestType: Codable
+    associatedtype DomainModel
+    var requestEntity: RequestType { get set }
+    var requestPath: String { get }
+    var method: HTTPMethod { get }
+    var encoding: ParameterEncoding { get }
 }

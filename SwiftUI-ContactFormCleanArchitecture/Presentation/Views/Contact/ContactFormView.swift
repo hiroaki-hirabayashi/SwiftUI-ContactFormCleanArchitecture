@@ -44,6 +44,7 @@ struct ContactFormView: View {
                             .localizedString,
                         text: $viewModel.text
                     )
+                        .keyboardType(.default)
                         .background(Color.white)
                     
                     Spacer()
@@ -69,8 +70,16 @@ struct ContactFormView: View {
                     
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button(action: {
-                            self.needShowAlert = true
-                            presentationMode.wrappedValue.dismiss()
+                            viewModel.sendInquiry { error in
+                                let isError = error != nil
+                                errorAlert = isError
+                                self.needShowAlert = !isError
+                                
+                                if !isError {
+                                    presentationMode.wrappedValue.dismiss()
+                                }
+                                
+                            }
                         }) {
                             Text("ContactFormView_SendButton".localizedString)
                                 .font(Font.system(size: 17))
@@ -78,11 +87,27 @@ struct ContactFormView: View {
                                 .foregroundColor(viewModel.toValidation ? .gray : Color.viewButtton)
                         }
                         .disabled(viewModel.toValidation)
+                        .alert(isPresented: $errorAlert) {
+                            showErrorAlert()
+                        }
                         .accessibilityIdentifier("ContactFormView_SendButton")
                     }
                 }
             }
+            .onTapGesture {
+                UIApplication.shared.sendAction(
+                    #selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil
+                )
+            }
         }
+    }
+    
+    func showErrorAlert() -> Alert {
+        Alert(
+            title: Text("ContactSendErrorAlert_Title".localizedString),
+            message: Text("ContactSendErrorAlert_Message".localizedString),
+            dismissButton: .default(Text("ErrorAlertButton_OK".localizedString))
+        )
     }
 }
 

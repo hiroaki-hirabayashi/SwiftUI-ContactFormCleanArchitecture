@@ -9,76 +9,59 @@ import Alamofire
 import Foundation
 import UIKit
 
-protocol APIClient {
-    associatedtype EntityType: Codable
-    associatedtype RequestType: Codable
-
-    func request(
-        url: String,
-        httpMethod: HTTPMethod,
-        entity: RequestType,
-        success: @escaping (_ response: EntityType) -> Void,
+final class APIClient: APIClientProtocol {
+    // TODO: 目的に合わせて変更できる様にしたい
+    static let apiDomain = "http://localhost:8080"
+    
+    func request<Mapper: EntityMapper>(
+        mapper: Mapper,
+        success: @escaping (_ response: Mapper.DomainModel) -> Void,
         failure: @escaping () -> Void
-    )
+    ) {
+        do {
+            let postString = try? mapper.requestEntity.asDictionary()
+            print(postString ?? [:])
+            let request = AF.request(
+                APIClient.apiDomain + mapper.requestPath,
+                method: mapper.method,
+                parameters: try mapper.requestEntity.asDictionary(),
+                encoding: mapper.encoding,
+                headers: ["Content-Type": "application/json"]
+            )
+            request.responseJSON { response in
+                if let err = response.error {
+                    // error
+                    print(err.errorDescription ?? "Unknown Error")
+                    failure()
+                    return
+                }
+                
+                if let data = response.data {
+                    // success
+                    let dataString = String(data: data, encoding: .utf8)
+                    print(dataString ?? "NoData")
+                    do {
+                        let result = try JSONDecoder().decode(Mapper.EntityType.self, from: data)
+                        success(mapper.entityToDomain(entity: result))
+                    } catch {
+                        failure()
+                    }
+                } else {
+                    // NO Data
+                    failure()
+                }
+            }
+        } catch {
+            failure()
+        }
+    }
 }
 
-extension APIClient {
-    func request(
-        url: String,
-        httpMethod: HTTPMethod,
-        entity: RequestType,
-        success: @escaping (_ response: EntityType) -> Void,
+protocol APIClientProtocol {
+    func request<Mapper: EntityMapper>(
+        mapper: Mapper,
+        success: @escaping (_ response: Mapper.DomainModel) -> Void,
         failure: @escaping () -> Void
-    ) {
-        // TODO: 仮実装
-        //                let request = AF.request(url, method: .get, parameters: [:],
-        //                  encoding: URLEncoding.default, headers: [:])
-        //                request.responseJSON { response in
-        //                    if let err = response.error {
-        //                        // error
-        //                        print(err.errorDescription ?? "Unknown Error")
-        //                        failure()
-        //                        return
-        //                    }
-        //
-        //                    if let data = response.data {
-        //                        // success
-        //                        do {
-        //                            let result = try JSONDecoder().decode(mapper.entity, from: data)
-        //                    success(mapper.entityToDomain(entity: result))
-        //                } catch {
-        //                    failure()
-        //                }
-        //            } else {
-        //                // NO Data
-        //                success(nil)
-        //            }
-        //        }
-    }
-
-    func httpPost<T: Encodable>(
-        url: String, entity: T, complete: @escaping (_ result: Bool) -> Void
-    ) {
-        //        // TODO: 仮実装
-        //        var request = URLRequest(url: URL(string: url)!)
-        //        request.httpMethod = "POST"
-        //        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        //
-        //        do {
-        //            let params = try entity.asDictionary()
-        //            request.httpBody = try JSONSerialization.data(withJSONObject: params)
-        //            AF.request(request).responseJSON { response in
-        //                if let err = response.error {
-        //                    // error
-        //                    print(err.errorDescription ?? "Unknown Error")
-        //                    complete(false)
-        //                    return
-        //                }
-        //                complete(true)
-        //            }
-        //        } catch {
-        //            complete(false)
-        //        }
-    }
+    )
 }
 
