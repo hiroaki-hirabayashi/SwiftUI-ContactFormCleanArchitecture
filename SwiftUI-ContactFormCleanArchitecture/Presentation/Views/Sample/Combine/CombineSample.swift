@@ -42,7 +42,7 @@ struct CombineSample: View {
                     self.symbol = symbolCondition.evaluate(with: messageText)
                 }
                 .padding()
-            // ユーザーによるパスワード入力をご希望の場合は、`SecureField` をご利用下さい。
+            // ユーザーによるパスワード入力をご希望の場合は、`SecureField` を使う
             Text(String(messageText.count))
                 .keyboardType(.asciiCapable)
                 .autocapitalization(.none)

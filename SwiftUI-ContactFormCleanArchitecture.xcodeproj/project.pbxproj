@@ -16,6 +16,8 @@
 		F462A824278745A500A0CEC6 /* AnsweredInquiryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A823278745A500A0CEC6 /* AnsweredInquiryEntity.swift */; };
 		F462A826278745C300A0CEC6 /* FoundAnswerdInquiriesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A825278745C300A0CEC6 /* FoundAnswerdInquiriesEntity.swift */; };
 		F462A8282787487400A0CEC6 /* InquiryHttpConnectionStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A8272787487400A0CEC6 /* InquiryHttpConnectionStub.swift */; };
+		F462AA3427A57D5B00A0CEC6 /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AA3327A57D5B00A0CEC6 /* CombineViewModel.swift */; };
+		F462AA3627A57FB000A0CEC6 /* CombineSample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AA3527A57FB000A0CEC6 /* CombineSample2.swift */; };
 		F47C3ECE2778B3DC00CDD87C /* Cuckoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47C3ECD2778B3DC00CDD87C /* Cuckoo.framework */; };
 		F47C3ED02778B4D600CDD87C /* MockTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3ECF2778B4D600CDD87C /* MockTest.swift */; };
 		F47C3ED42778B5C900CDD87C /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3ED32778B5C900CDD87C /* GeneratedMocks.swift */; };
@@ -104,6 +106,8 @@
 		F462A823278745A500A0CEC6 /* AnsweredInquiryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnsweredInquiryEntity.swift; sourceTree = "<group>"; };
 		F462A825278745C300A0CEC6 /* FoundAnswerdInquiriesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundAnswerdInquiriesEntity.swift; sourceTree = "<group>"; };
 		F462A8272787487400A0CEC6 /* InquiryHttpConnectionStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryHttpConnectionStub.swift; sourceTree = "<group>"; };
+		F462AA3327A57D5B00A0CEC6 /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
+		F462AA3527A57FB000A0CEC6 /* CombineSample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSample2.swift; sourceTree = "<group>"; };
 		F47C3ECD2778B3DC00CDD87C /* Cuckoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cuckoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47C3ECF2778B4D600CDD87C /* MockTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTest.swift; sourceTree = "<group>"; };
 		F47C3ED32778B5C900CDD87C /* GeneratedMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
@@ -212,9 +216,19 @@
 		F462A81A2785E17300A0CEC6 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				F462A81B2785E1A500A0CEC6 /* CombineSample.swift */,
+				F462AA3227A57D1900A0CEC6 /* Combine */,
 			);
 			path = Sample;
+			sourceTree = "<group>";
+		};
+		F462AA3227A57D1900A0CEC6 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				F462A81B2785E1A500A0CEC6 /* CombineSample.swift */,
+				F462AA3527A57FB000A0CEC6 /* CombineSample2.swift */,
+				F462AA3327A57D5B00A0CEC6 /* CombineViewModel.swift */,
+			);
+			path = Combine;
 			sourceTree = "<group>";
 		};
 		F47C3EC62778AC7700CDD87C /* Domain */ = {
@@ -952,12 +966,14 @@
 			files = (
 				F4D79764276E1FF90034A35C /* ContactTopViewModel.swift in Sources */,
 				F47C3F03277CBFF100CDD87C /* AcceptInquiryEntity.swift in Sources */,
+				F462AA3427A57D5B00A0CEC6 /* CombineViewModel.swift in Sources */,
 				F47C3ED02778B4D600CDD87C /* MockTest.swift in Sources */,
 				F4D797722770CC8D0034A35C /* Sample.swift in Sources */,
 				F47C3F01277CBFCD00CDD87C /* InquiryFormEntity.swift in Sources */,
 				F47C3EF82779E86300CDD87C /* ViewModelMapper.swift in Sources */,
 				F47C3EFB277B607100CDD87C /* Encodable+Dictionary.swift in Sources */,
 				F4D79767276E203A0034A35C /* ContactTopView.swift in Sources */,
+				F462AA3627A57FB000A0CEC6 /* CombineSample2.swift in Sources */,
 				F4D7976E2770C89C0034A35C /* Bundle+Locator.swift in Sources */,
 				F4D7977D27735FE60034A35C /* Color.swift in Sources */,
 				F462A826278745C300A0CEC6 /* FoundAnswerdInquiriesEntity.swift in Sources */,
